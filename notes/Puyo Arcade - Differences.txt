@@ -1,0 +1,47 @@
+- The bug where the AI loses its ability to manually drop Puyo if the other joystick is held to the left or right.
+- Only select 28 letters instead of 29 letters when pressing UP on the BEST RECORD board.
+
+--------------------
+
+Puyo - Arcade (REV A)
+
+E9CC = andi.w   #$FD8F, D0
+E9D0 = andi.b   #$F3, D1
+
+A1B0 = move.b   #$1C, ($12, A0, d0.w)
+
+--------------------
+
+Puyo - Arcade (REV B)
+
+E9CC = andi.w   #0, D0
+E9D0 = andi.b   #0, D1
+
+A1B0 = move.b   #$1B, ($12, A0, d0.w)
+
+--------------------
+
+Puyo - Mega Drive
+
+1009C = andi.w	 #$FD8F, D0
+100A0 = andi.b   #$F3, D1
+
+ B900 = move.b   #$1C, ($12, A0, d0.w)
+
+--------------------
+
+Puyo - Mega Drive (Fix Issues)
+
+1009C = andi.w	 #0, D0
+100A0 = andi.b   #0, D1
+
+ B900 = move.b   #$1B, ($12, A0, d0.w)
+
+--------------------
+
+Mean Bean Machine (USA) - Mega Drive (Fix Issues)
+
+12E6C = andi.w	 #0, D0
+12E70 = andi.b   #0, D1
+
+ C33E = move.b   #$1B, ($12, A0, d0.w)

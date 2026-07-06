@@ -1,0 +1,27 @@
+Operating system: Microsoft Windows NT 6.2.9200.0
+Opening INI file "C:\Users\radio\Thomas\Puyo Puyo Translation\Puyo Puyo (English) - RadioTails\mapping\Puyo Puyo - Spanish.ini"...
+Game type is Custom.
+Loading Story (Highlight)...
+Loading 8x8 tiles from file "../art/Spanish/Main_Menu.unc", using compression Uncompressed...
+System.ArgumentException: Source array was not long enough. Check srcIndex and length, and the array's lower bounds.
+   at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length)
+   at SonicRetro.SonLVL.SonPLN.MainForm.LoadLevelTiles() in C:\Users\radio\Downloads\SonLVL-master\SonPLN\MainForm.cs:line 377
+   at SonicRetro.SonLVL.SonPLN.MainForm.backgroundLevelLoader_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\radio\Downloads\SonLVL-master\SonPLN\MainForm.cs:line 325
+   at SonicRetro.SonLVL.SonPLN.MainForm.LevelToolStripMenuItem_Clicked(Object sender, EventArgs e) in C:\Users\radio\Downloads\SonLVL-master\SonPLN\MainForm.cs:line 309
+   at System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   at System.Windows.Forms.ToolStripMenuItem.OnClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   at System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   at System.Windows.Forms.ToolStripDropDown.OnMouseUp(MouseEventArgs mea)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   at System.Windows.Forms.ToolStripDropDown.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)

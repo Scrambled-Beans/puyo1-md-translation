@@ -1,0 +1,11 @@
+Options = 82 letters
+
+Dialog = 126 letters
+
+Battle
+- Rank Entry, letters must be grouped after lower case 9 (so currently A to Z), max 30 letters (could be possible to hack more)
+- Depending on the squashed GAME OVER text size (these are sprites, so uses 2 x 32x16, size can change), you need 16 letters free
+- Space for around 20 extra letters
+
+Simply put, you may have to be selected on what letters to display. The large font, I would only include the letters you need. 
+

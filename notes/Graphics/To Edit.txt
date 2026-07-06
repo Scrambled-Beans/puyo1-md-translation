@@ -1,0 +1,60 @@
+English:
+
+TRAINING LEVEL > PRACTICE MODE
+
+BLOCK > PUYO
+
+------------------------
+
+Japanese:
+
+練習ステージ > 練習モード
+
+
+おぷしょん > オプション
+- Since Options should be written in Katakana
+
+------------------------
+
+Spanish:
+
+TRAINING LEVEL > MODO PRÁCTICA
+
+
+GAME OVER > SE ACABÓ
+
+[Battle Font]
+- The battle font Ó can be set as a 8x24 sprite
+- The battle letters being squashed need to made from scratch
+
+[Continue Font]
+- Letters needed: S C B
+- Since these are 24x32, for the Ó, we can add a 8x24 sprite on top for the /
+
+
+DO YOU WANT TO CONTINUE? > ¿QUIERES CONTINUAR?
+- Letters needed: ¿ Q R S
+
+
+    STORY MODE > MODO HISTORIA
+1P VS. 2P MODE > MODO J1 VS J2
+  ENDLESS MODE > MODO INFINITO
+       OPTIONS > OPCIONES
+- Letters needed: H J F C
+
+
+ALL RIGHT! > ¡BRAVO!
+    OH NO! > ¡OH NO!
+- BRAVO could be the same height as RIGHT
+
+
+HIGH SCORES > PUNTUACIONES
+       NAME > NOMBRE
+      SCORE > PUNTOS
+       PUYO > PUYOS
+
+
+The Stone Board needs to be edited so the text
+- PUNTOS
+- SIGUIENES
+fits into the slots

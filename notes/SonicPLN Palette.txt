@@ -1,0 +1,5 @@
+SonicPLN Palette
+
+1 = Palette Size
+2 = Palette Offset
+3 = # Colors to display on HUD
