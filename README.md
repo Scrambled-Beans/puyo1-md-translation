@@ -3,7 +3,7 @@
 This is a partial disassembly to translate Puyo Puyo for the Sega Mega Drive into English.
 
 
-## Translating Puyo Puyo to Other Language
+## Translating Puyo Puyo to Another Language
 
 You are welcome to use the source code to translate the game to another language. If you need any help, feel free to contact RadioTails. The best way is to send an e-mail to: radiotailspuyo@outlook.com
 
@@ -30,3 +30,36 @@ Use MD5-SHA-Checksum-Utility (https://github.com/oop7/MD5-SHA-Checksum-Utility/r
 4 - Open "Puyo Puyo (Translation).asm" and adjust any settings.<br/>
 5 - Run "build.bat" to build the rom.<br/>
 6 - The built rom can be found in the "output" folder.
+
+
+## Credits
+
+Localization Team: 
+- Scrambled Beans
+
+Cordinator: 
+- RadioTails
+
+Japanase Translator: 
+- Lost in Localization
+- SnowyAria
+- Poppin'★Neni
+
+European Spanish Translator:
+- Jate
+
+Latin Spanish Translator:
+- Traducciones MDS
+
+Programmers:
+- RadioTails
+- AdolescentSeagull
+- Nasina
+- TomboyDragon
+- Ralakimus
+
+Graphic Editors:
+- E-122-Psi
+- Aburtos
+- Nik Pi 
+- Kamekku14
