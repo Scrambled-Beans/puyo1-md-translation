@@ -37,10 +37,10 @@ Use MD5-SHA-Checksum-Utility (https://github.com/oop7/MD5-SHA-Checksum-Utility/r
 Localization Team: 
 - Scrambled Beans
 
-Cordinator: 
+Coordinator: 
 - RadioTails
 
-Japanase Translator: 
+Japanese Translator: 
 - Lost in Localization
 - SnowyAria
 - Poppin'★Neni
