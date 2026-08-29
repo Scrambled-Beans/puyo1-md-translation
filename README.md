@@ -40,7 +40,7 @@ Localization Team:
 Coordinator: 
 - RadioTails
 
-Japanese Translator: 
+Japanese Translators: 
 - Lost in Localization
 - SnowyAria
 - Poppin'★Neni
