@@ -139,7 +139,7 @@ Story_Opponenets:
 			 
 			 FONT_BATTLE 	"mumy"					; Lesson 3
 			
-			 FONT_BATTLE 	"skya"					; Stage 3
+			 FONT_BATTLE 	"suki"					; Stage 3
 			 
 			 FONT_BATTLE 	"pano"					; Stage 6
 			 

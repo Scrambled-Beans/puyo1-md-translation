@@ -80,9 +80,9 @@ Cast_6:
 	
 	
 Cast_7:			
-					dc.w	9							; Number of Letters (max 18)
+					dc.w	11							; Number of Letters (max 18)
 		   Position_Text	18, 12, $D200   			; Text Position					
-			   Font_Cast 	"SKYAPODES"					; Text
+			   Font_Cast 	"SUKIYAPODES"				; Text
 				End_Text								; End
 					even
 	
