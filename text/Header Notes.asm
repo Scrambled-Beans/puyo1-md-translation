@@ -5,10 +5,10 @@
 
 	if SetRegion=1	; UK
 
-Notes:			DC.b "TRANSLATION V1.1 - 24/06/2026 (DMY)     "
+Notes:			DC.b "TRANSLATION V1.2 - 15/09/2026 (DMY)     "
 
 	else			; USA
 	
-Notes:			DC.b "TRANSLATION V1.1 - 06/24/2026 (MDY)     "
+Notes:			DC.b "TRANSLATION V1.2 - 09/15/2026 (MDY)     "
 
 	endc
