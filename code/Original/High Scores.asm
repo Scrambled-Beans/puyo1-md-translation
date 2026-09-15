@@ -19,37 +19,72 @@
 					BPUYO		$A000,	Art_Font_Upper		; Art - Font Numbers (View)					
 					
 ; ---------------------------------------------------------------------------------	
-										
-					org			$176AA
+								
+					; Mapping - High Score Background (Background)
+								
+					org			$176A6						
 					
-					dc.l		Mapping_Score_1				; Mapping - High Score Background (1)
-					
-					org			$176C2
-					
-					dc.l		Mapping_Score_1
-					
-					org			$176E6
-					
-					dc.l		Mapping_Score_1
+					dc.b 		40							; X Position
+					dc.b 		28							; Y Position
+					dc.w 		$E000						; Location
+					dc.l		Mapping_Score_1				; Mappings
+					dc.b 		$03							; Index
 					
 					
-					org			$176B6
+					org			$176BE
 					
-					dc.l		Mapping_Score_2				; Mapping - High Score Background (2)
+					dc.b 		40							; X Position
+					dc.b 		28							; Y Position
+					dc.w 		$E050						; Location
+					dc.l		Mapping_Score_1				; Mappings
+					dc.b 		$03							; Index
 					
-					org			$176CE
 					
-					dc.l		Mapping_Score_2
+					org			$176E2
 					
-					org			$176F2
+					dc.b 		40							; X Position
+					dc.b 		28							; Y Position
+					dc.w 		$E0B0						; Location
+					dc.l		Mapping_Score_1				; Mappings
+					dc.b 		$03							; Index
+
+; ---------------------------------------------------------------------------------						
 					
-					dc.l		Mapping_Score_2
+					; Mapping - High Score Background (Text)
+					
+					org			$176B2						
+					
+					dc.b 		40							; X Position
+					dc.b 		8							; Y Position
+					dc.w 		$C200						; Location
+					dc.l		Mapping_Score_2				; Mappings
+					dc.b 		$83							; Index
+					
+					
+					org			$176CA
+					
+					dc.b 		40							; X Position
+					dc.b 		8							; Y Position
+					dc.w 		$C250						; Location
+					dc.l		Mapping_Score_2				; Mappings
+					dc.b 		$83							; Index
+					
+					
+					org			$176EE
+					
+					dc.b 		40							; X Position
+					dc.b 		8							; Y Position
+					dc.w 		$C2B0						; Location
+					dc.l		Mapping_Score_2				; Mappings
+					dc.b 		$83							; Index
 					
 ; ---------------------------------------------------------------------------------	
 
+					; Mapping - Behind Numbers
+
 					org			$176DA
 					
-					dc.l		Mapping_Numbers				; Mapping - Behind Numbers
+					dc.l		Mapping_Numbers
 					
 					org			$176FE
 					
