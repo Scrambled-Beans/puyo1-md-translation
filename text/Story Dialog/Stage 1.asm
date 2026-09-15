@@ -19,13 +19,13 @@ Stage_1:	; Draco Centauros
 ; ---------------------------------------------------------------------------------
 
 						   ; X   Y   W  L  Speak
-		New_Frame			12,  9, 25, 3, Enemy
+		New_Frame			11,  9, 26, 3, Enemy
 			  
 		Animation_Enemy		1
 										
-		Font_Story 			"If you wanna get past me,"
+		Font_Story 			"If you wanna pass through,"
 		Frames_Pause 		35
-		Font_Story 			"you'll have to best me^"
+		Font_Story 			"you'll have to face me^"
 		Font_Story 			"in a contest!"	
 		
 		Animation_Enemy		0

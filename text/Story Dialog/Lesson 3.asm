@@ -57,7 +57,7 @@ Lesson_3:	; Mummy
 		Frames_Pause		20
 
 						   ; X   Y   W  L  Speak
-		New_Frame			 3, 11, 20, 2, Arle
+		New_Frame			 3, 11, 19, 2, Arle
 			  
 		Animation_Arle		2
 		
@@ -65,7 +65,7 @@ Lesson_3:	; Mummy
 		
 		Font_Story 			"How?^"	
 		Frames_Pause		35
-		Font_Story 			"How is it my fault!?"
+		Font_Story 			"How's it my fault!?"
 		
 		Animation_Arle		21
 		
