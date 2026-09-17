@@ -26,6 +26,10 @@ c substr 1+i,1+i,\text
 			; !
 			elseif ("\c"="!")
 				dc.b	28
+				
+			; ¡
+			elseif ("\c"="¡")
+				dc.b	29
 							
 			else
 				dc.b	0

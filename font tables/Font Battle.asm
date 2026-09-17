@@ -66,6 +66,18 @@ c substr 1+i,1+i,\text
 			; É (Large Font)
 			elseif ("\c"="É")
 				dc.b	76
+				
+			; é
+			elseif ("\c"="é")
+				dc.b	192
+				
+			; ñ
+			elseif ("\c"="ñ")
+				dc.b	194
+				
+			; ü
+			elseif ("\c"="ü")
+				dc.b	196
 							
 			else
 				dc.b	0
