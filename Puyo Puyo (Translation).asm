@@ -19,19 +19,21 @@ SizeSRAM:			equ 0	; 0 =  8 KB ( 64 Kb)
 							; 1 = 32 KB (256 Kb)
 																			
 SetRegion:			equ 0	; 0 = USA English
-							; 1 =  UK English
+							; 1 = UK English
+							; 2 = Español de España (European Spanish)
+							; 3 = Español Latino (Latin Spanish)
 							
-StoryNextScore:		equ 0	; 0 = Use "Story_Board_Next_Score_Original" code so
+StoryNextScore:		equ 1	; 0 = Use "Story_Board_Next_Score_Original" code so
 							;     stages 9 to 12 use the same NEXT and SCORE text
 							;     as stages 1 to 8
 							; 1 = Use "Story_Board_Next_Score_Custom" code so
 							;     stages 9 to 12 use different NEXT and SCORE text
 							;     to stages 1 to 8
 							
-StaffTranslation:	equ 0	; 0 = Don't include "Language Translation" section in Staff
+StaffTranslation:	equ 1	; 0 = Don't include "Language Translation" section in Staff
 							; 1 =    Do include "Language Translation" section in Staff
 							
-Debug:				equ 0	; 0 = Turn Debug OFF
+Debug:				equ 1	; 0 = Turn Debug OFF
 							; 1 = Turn Debug ON
 							
 SkipCredits:		equ 1	; 0 = Can Skip Credits
@@ -40,7 +42,7 @@ SkipCredits:		equ 1	; 0 = Can Skip Credits
 ReproCarts			equ 1	; 0 = I HATE Repro Carts
 							; 1 = I LOVE Repro Carts
 							
-SpecialChecksum		equ 1	; 0 = Use default Checksum
+SpecialChecksum		equ 0	; 0 = Use default Checksum
 							; 1 = Use special Checksum
 
 ; ==================================================================================================================================							
