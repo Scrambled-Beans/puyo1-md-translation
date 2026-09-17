@@ -287,12 +287,12 @@ Input_12:
 			; The "ON / OFF" text length can be extended!
 
 ON_Text:
-			Font_Options	"o"			; ON
+			Font_Options	"on"		; ON
 				End_Text
 					even
 
 OFF_Text:
-			Font_Options	"x"			; OFF	
+			Font_Options	"#"			; OFF	
 				End_Text
 					even
 
