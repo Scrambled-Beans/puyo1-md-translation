@@ -103,17 +103,65 @@ c substr 1+i,1+i,\text
 			elseif ("\c"="/")
 				dc.b	57
 				
-			; o = ON
+			; ¿
+			elseif ("\c"="¿")
+				dc.b	58
+				
+			; ¡
+			elseif ("\c"="¡")
+				dc.b	59	
+											
+			; Á
+			elseif ("\c"="Á")
+				dc.b	64
+				
+			; É
+			elseif ("\c"="É")
+				dc.b	65
+
+			; Í
+			elseif ("\c"="Í")
+				dc.b	66
+				
+			; Ó
+			elseif ("\c"="Ó")
+				dc.b	67
+				
+			; Ú
+			elseif ("\c"="Ú")
+				dc.b	68
+				
+			; Ñ
+			elseif ("\c"="Ñ")
+				dc.b	69
+
+			; Ü
+			elseif ("\c"="Ü")
+				dc.b	70
+
+				
+			; ON/OFF Letters	
+				
+			; # = OFF
+			elseif ("\c"="#")
+				dc.b	80, 81				
+				
+			; o
 			elseif ("\c"="o")
-				dc.b	60, 61
+				dc.b	82	
 				
-			; x = OFF
-			elseif ("\c"="x")
-				dc.b	62, 63
+			; n
+			elseif ("\c"="n")
+				dc.b	83	
 				
-			; ©
-			elseif ("\c"="©")
-				dc.b	37
+			; s
+			elseif ("\c"="s")
+				dc.b	84	
+				
+			; í
+			elseif ("\c"="í")
+				dc.b	85		
+
 				
 			else
 				dc.b	0
