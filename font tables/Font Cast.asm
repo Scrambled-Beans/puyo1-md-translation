@@ -30,6 +30,34 @@ c substr 1+i,1+i,\text
 			; .
 			elseif ("\c"=".")
 				dc.b	76
+				
+			; Á
+			elseif ("\c"="Á")
+				dc.b	96
+				
+			; É
+			elseif ("\c"="É")
+				dc.b	98
+
+			; Í
+			elseif ("\c"="Í")
+				dc.b	100
+				
+			; Ó
+			elseif ("\c"="Ó")
+				dc.b	102
+				
+			; Ú
+			elseif ("\c"="Ú")
+				dc.b	104
+				
+			; Ñ
+			elseif ("\c"="Ñ")
+				dc.b	106
+				
+			; Ü
+			elseif ("\c"="Ü")
+				dc.b	108
 										
 			else
 				dc.b	0
