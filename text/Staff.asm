@@ -32,10 +32,7 @@ Staff_Strings:
 					
 			 Staff_Y_Pos 	3		
 					dc.l 	Trans_Translator_Spain
-					
-			 Staff_Y_Pos 	4	
-					dc.l 	Trans_Jate
-										
+															
 			 Staff_Y_Pos 	20
 					dc.l 	Trans_MDS
 					
@@ -318,7 +315,7 @@ Trans_Team_1:
 	endc
 
 Trans_Team_2:
-			 Staff_X_Pos	Green_Staff, 12, 17			; Palette | X Position | # Letters
+			 Staff_X_Pos	Green_Staff, 12, 16			; Palette | X Position | # Letters
 			  Font_Staff 	"BY SCRAMBLED BEANS"		; Text
 					even
 					
@@ -400,13 +397,13 @@ Staff_Sound:
 					even
 					
 Staff_Music:			
-			 Staff_X_Pos 	Green_Staff, 6, 9			; Palette | X Position | # Letters
-			  Font_Staff 	"BGM AND SFX"				; Text			  
+			 Staff_X_Pos 	Green_Staff, 6, 7			; Palette | X Position | # Letters
+			  Font_Staff 	"BGM & SFX"					; Text			  
 					even
 					
 Staff_Manual:			
-			 Staff_X_Pos 	Green_Staff, 6, 18			; Palette | X Position | # Letters
-			  Font_Staff 	"MANUAL AND PACKAGING"		; Text			  
+			 Staff_X_Pos 	Green_Staff, 6, 16			; Palette | X Position | # Letters
+			  Font_Staff 	"MANUAL & PACKAGING"		; Text			  
 					even
 					
 ; ---------------------------------------------------------------------------------
