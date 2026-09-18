@@ -1,5 +1,7 @@
 
 				; !!DO NOT CHANGE THE LENGTH OF THE TEXT!!
+				
+; ---------------------------------------------------------------------------------	
 
 	if SetRegion=1	; UK
 
@@ -20,10 +22,13 @@ Title_Int:		DC.b "PUYO PUYO (ESP-EU)                              " ; Internatio
 Title_Local:	DC.b "PUYO PUYO (ESP-LA)                              " ; Domestic name
 Title_Int:		DC.b "PUYO PUYO (ESP-LA)                              " ; International name
 
-; ---------------------------------------------------------------------------------		
+; ---------------------------------------------------------------------------------
+		
 	else			; USA
 
 Title_Local:	DC.b "PUYO PUYO (ENG)                                 " ; Domestic name
 Title_Int:		DC.b "PUYO PUYO (ENG)                                 " ; International name
+
+; ---------------------------------------------------------------------------------	
 
 	endc
