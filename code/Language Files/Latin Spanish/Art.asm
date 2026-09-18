@@ -1,10 +1,10 @@
 	
 Art_Title:			; Art - Title
-					incbin "art\Title.puyo"	
+					incbin "art\Latin Spanish\Title.puyo"	
 					even
 					
 Art_Main_Menu:		; Art - Menu
-					incbin "art\Main_Menu.puyo"	
+					incbin "art\Latin Spanish\Main_Menu.puyo"	
 					even
 					
 Art_Font_Options:	; Art - Font Options
@@ -12,11 +12,11 @@ Art_Font_Options:	; Art - Font Options
 					even
 
 Art_Font_Battle:	; Art - Font Battle
-					incbin "art\Font_Battle.puyo"	
+					incbin "art\Latin Spanish\Font_Battle.puyo"	
 					even
 					
 Art_Font_Story:		; Art - Font Story
-					incbin "art\Font_Story.puyo"	
+					incbin "art\Latin Spanish\Font_Story.puyo"	
 					even
 									
 Art_Font_Cast:		; Art - Font Cast
@@ -28,27 +28,27 @@ Art_Font_Upper:		; Art - Font Upper
 					even
 										
 Art_Win_Lose:		; Art - Win Lose
-					incbin "art\Win_Lose.puyo"	
+					incbin "art\Latin Spanish\Win_Lose.puyo"	
 					even
 
 Art_High_Scores:	; Art - High Scores
-					incbin "art\High_Scores.puyo"	
+					incbin "art\Latin Spanish\High_Scores.puyo"	
 					even
 					
 Art_Continue:		; Art - Art_Continue
-					incbin "art\Continue.puyo"	
+					incbin "art\Latin Spanish\Continue.puyo"	
 					even
 					
 Art_Board_Toy:		; Art - Board Toy
-					incbin "art\Board_Toy.puyo"	
+					incbin "art\Latin Spanish\Board_Toy.puyo"	
 					even
 					
 Art_Board_Stone:	; Art - Board Stone
-					incbin "art\Board_Stone.puyo"	
+					incbin "art\Latin Spanish\Board_Stone.puyo"	
 					even
 						
 Art_Board_Cabin:	; Art - Board Stone
-					incbin "art\Board_Cabin.puyo"	
+					incbin "art\Latin Spanish\Board_Cabin.puyo"	
 					even
 					
 Art_Font_Tutorial:	; Art - Font Tutorial
