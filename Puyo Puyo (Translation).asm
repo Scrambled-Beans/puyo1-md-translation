@@ -7,21 +7,14 @@
 ;   Japanese Translation by Lost in Localization & SnowyAria
 ;
 ; ==================================================================================================================================
-
-EnableSRAM:			equ 0	; 0 = Disable SRAM
-							; 1 = Enable SRAM
-							
-AddressSRAM:		equ 3	; 0 = Odd + Even
-							; 2 = Even Only
-							; 3 = Odd Only
-							
-SizeSRAM:			equ 0	; 0 =  8 KB ( 64 Kb)
-							; 1 = 32 KB (256 Kb)
-																			
+																	
 SetRegion:			equ 3	; 0 = USA English
 							; 1 = UK English
 							; 2 = Español de España (European Spanish)
 							; 3 = Español Latino (Latin Spanish)
+							
+ConsoleHeader:		equ 1	; 0 = Header says "SEGA MEGA DRIVE"
+							; 1 = Header says "SEGA GENESIS"
 							
 StoryNextScore:		equ 1	; 0 = Use "Story_Board_Next_Score_Original" code so
 							;     stages 9 to 12 use the same NEXT and SCORE text
@@ -44,6 +37,18 @@ ReproCarts			equ 1	; 0 = I HATE Repro Carts
 							
 SpecialChecksum		equ 0	; 0 = Use default Checksum
 							; 1 = Use special Checksum
+							
+; ==================================================================================================================================	
+
+EnableSRAM:			equ 0	; 0 = Disable SRAM
+							; 1 = Enable SRAM
+							
+AddressSRAM:		equ 3	; 0 = Odd + Even
+							; 2 = Even Only
+							; 3 = Odd Only
+							
+SizeSRAM:			equ 0	; 0 =  8 KB ( 64 Kb)
+							; 1 = 32 KB (256 Kb)
 
 ; ==================================================================================================================================							
 							
