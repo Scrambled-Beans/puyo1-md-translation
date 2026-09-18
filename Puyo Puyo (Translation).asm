@@ -18,7 +18,7 @@ AddressSRAM:		equ 3	; 0 = Odd + Even
 SizeSRAM:			equ 0	; 0 =  8 KB ( 64 Kb)
 							; 1 = 32 KB (256 Kb)
 																			
-SetRegion:			equ 0	; 0 = USA English
+SetRegion:			equ 3	; 0 = USA English
 							; 1 = UK English
 							; 2 = Español de España (European Spanish)
 							; 3 = Español Latino (Latin Spanish)
@@ -267,28 +267,68 @@ EndOfHeader:
 					even
 
 ; ----------------------------------------------------------------------------------------------------------------------------------
+
+	if SetRegion=3	; Latin Spanish
 			
 					; Data - Art
-					include "code\Language Files\Art.asm"
+					include "code\Language Files\Latin Spanish\Art.asm"
 					even
+
+	else
+	
+					; Data - Art
+					include "code\Language Files\English\Art.asm"
+					even
+
+	endc
 					
 ; ----------------------------------------------------------------------------------------------------------------------------------
-				
+
+	if SetRegion=3	; Latin Spanish
+							
 					; Data - Mappings
-					include "code\Language Files\Mappings.asm"
+					include "code\Language Files\Latin Spanish\Mappings.asm"
 					even
 					
+	else
+
+					; Data - Mappings
+					include "code\Language Files\English\Mappings.asm"
+					even
+					
+	endc
+					
 ; ----------------------------------------------------------------------------------------------------------------------------------
+
+	if SetRegion=3	; Latin Spanish
 				
 					; Data - Text
-					include "code\Language Files\Text.asm"
+					include "code\Language Files\Latin Spanish\Text.asm"
 					even
+					
+	else
+	
+					; Data - Text
+					include "code\Language Files\English\Text.asm"
+					even
+					
+	endc
 					
 ; ----------------------------------------------------------------------------------------------------------------------------------
+
+	if SetRegion=3	; Latin Spanish
 					
 					; Data - Dialog
-					include "code\Language Files\Dialog.asm"
+					include "code\Language Files\English\Dialog.asm"
 					even
+					
+	else
+
+					; Data - Dialog
+					include "code\Language Files\English\Dialog.asm"
+					even
+					
+	endc
 
 ; ==================================================================================================================================	
 
