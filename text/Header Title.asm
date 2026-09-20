@@ -12,8 +12,8 @@ Title_Int:		DC.b "PUYO PUYO (ENG-UK)                              " ; Internatio
 
 	elseif SetRegion=2	; EU Spanish
 
-Title_Local:	DC.b "PUYO PUYO (ESP-EU)                              " ; Domestic name
-Title_Int:		DC.b "PUYO PUYO (ESP-EU)                              " ; International name
+Title_Local:	DC.b "PUYO PUYO (ESP-ES)                              " ; Domestic name
+Title_Int:		DC.b "PUYO PUYO (ESP-ES)                              " ; International name
 
 ; ---------------------------------------------------------------------------------		
 
