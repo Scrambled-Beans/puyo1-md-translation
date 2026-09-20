@@ -34,13 +34,9 @@ Title_Copyright:
 			Sprite_Piece	PAL_1, $3C6, High,  -16, 0, No, No, Pixels_16, Pixels_16, 0
 								
 			Sprite_Piece	PAL_1, $3F8, High,  112, 0, No, No, Pixels_32, Pixels_16, 0		; Version
-			
-		if SetRegion=1		; UK English
-			Sprite_Piece	PAL_1, $3E0, High,   56, 0, No, No, Pixels_32, Pixels_16, 0		; ENG-
-			Sprite_Piece	PAL_1, $3EE, High,   88, 0, No, No, Pixels_16, Pixels_16, 0		; UK
-			
-		else				; USA English
-			Sprite_Piece	PAL_1, $3E0, High,   80, 0, No, No, Pixels_24, Pixels_16, 0		; ENG
-			endc
+
+			Sprite_Piece	PAL_1, $3E0, High,   56, 0, No, No, Pixels_32, Pixels_16, 0		; ESP-
+			Sprite_Piece	PAL_1, $3EE, High,   88, 0, No, No, Pixels_16, Pixels_16, 0		; LA
+
 
 ; ---------------------------------------------------------------------------------
