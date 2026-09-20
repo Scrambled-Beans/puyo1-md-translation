@@ -8,8 +8,8 @@
 ;
 ; ==================================================================================================================================
 																	
-SetRegion:			equ 3	; 0 = USA English
-							; 1 = UK English
+SetRegion:			equ 3	; 0 = English (USA)
+							; 1 = English (UK)
 							; 2 = Español de España (European Spanish)
 							; 3 = Español Latino (Latin Spanish)
 							
