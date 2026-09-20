@@ -27,7 +27,7 @@ Use MD5-SHA-Checksum-Utility (https://github.com/oop7/MD5-SHA-Checksum-Utility/r
 
 ## Building (Windows)
 
-1 - Download the repo.<br/>
+1 - Download the "puyo1-md-translation" repository.<br/>
 2 - Place the original Puyo Puyo (Mega Drive) ROM in the "rom" folder.<br/> 
 3 - Rename the file to: Puyo Puyo.bin<br/> 
 4 - Open "Puyo Puyo (Translation).asm" and adjust any settings.<br/>
