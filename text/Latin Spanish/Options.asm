@@ -177,7 +177,7 @@ Options_11:
 Options_12:			
 		   Position_Text	5, 17
 			 Plane_Piece	Green_Opt, $500, High, No, No
-			Font_Options	"MODO J1 VS J2   :"
+			Font_Options	"MODO VERSUS     :"
 				End_Text
 					even
 				
