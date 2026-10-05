@@ -31,10 +31,10 @@ Staff_Strings:
 	if StaffTranslation=1	; Extra section to credit translators.
 					
 			 Staff_Y_Pos 	3		
-					dc.l 	Trans_Translator_Spain
+					dc.l 	Trans_Translator_Other
 															
 			 Staff_Y_Pos 	20
-					dc.l 	Trans_MDS
+					dc.l 	Trans_RT
 					
 	endc
 
@@ -329,9 +329,9 @@ Trans_Translator_Japan:
 			  Font_Staff 	"JAPANESE TRANSLATORS"		; Text			  
 					even
 					
-Trans_Translator_Spain:			
-			 Staff_X_Pos 	Green_Staff, 6, 18			; Palette | X Position | # Letters
-			  Font_Staff 	"SPANISH TRANSLATION"		; Text			  
+Trans_Translator_Other:			
+			 Staff_X_Pos 	Green_Staff, 6, 11			; Palette | X Position | # Letters
+			  Font_Staff 	"TRANSLATION"				; Text			  
 					even
 					
 Trans_Programmer:			
