@@ -24,9 +24,9 @@ Cast_Strings:
 ; =================================================================================
 
 Cast_19:			
-					dc.w	4							; Number of Letters (max 18)
+					dc.w	7							; Number of Letters (max 18)
 		   Position_Text	18, 12, $D200   			; Text Position					
-			   Font_Cast 	"CAST"						; Text
+			   Font_Cast 	"REPARTO"					; Text
 				End_Text								; End
 					even
 
@@ -112,9 +112,9 @@ Cast_10:
 	
 	
 Cast_11:			
-					dc.w	6							; Number of Letters (max 18)
+					dc.w	5							; Number of Letters (max 18)
 		   Position_Text	18, 12, $D200   			; Text Position				
-			   Font_Cast 	"ZOMBIE"					; Text
+			   Font_Cast 	"ZOMBI"						; Text
 				End_Text								; End
 					even
 	
@@ -162,15 +162,15 @@ Cast_16:
 Cast_17:			
 					dc.w	5							; Number of Letters (max 18)
 		   Position_Text	18, 12, $D200   			; Text Position				
-			   Font_Cast 	"SATAN"						; Text
+			   Font_Cast 	"SATÁN"						; Text
 				End_Text								; End
 					even
 	
 	
 Cast_20:			
-					dc.w	6							; Number of Letters (max 18)
-		   Position_Text	17, 12, $D200   			; Text Position					
-			   Font_Cast 	"AND..."					; Text
+					dc.w	4							; Number of Letters (max 18)
+		   Position_Text	18, 12, $D200   			; Text Position					
+			   Font_Cast 	"Y..."						; Text
 				End_Text								; End
 					even
 	

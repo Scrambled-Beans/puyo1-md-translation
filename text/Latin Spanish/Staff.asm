@@ -31,7 +31,7 @@ Staff_Strings:
 	if StaffTranslation=1	; Extra section to credit translators.
 					
 			 Staff_Y_Pos 	3		
-					dc.l 	Trans_Translator_Spain
+					dc.l 	Trans_Translator_Other
 															
 			 Staff_Y_Pos 	20
 					dc.l 	Trans_MDS
@@ -102,9 +102,6 @@ Staff_Strings:
 														
 			 Staff_Y_Pos 	4
 					dc.l 	Trans_Jate
-							
-			 Staff_Y_Pos 	4
-					dc.l 	Trans_MDS
 														
 			 Staff_Y_Pos 	4
 					dc.l 	Trans_Puyo
@@ -245,7 +242,7 @@ Try_On_Hardest_Strings:
 					; Try Hardest
 					
 					dc.w		15					; Y Position					
-					dc.l		Try_On_The			; Line 1
+					dc.l		Try_On				; Line 1
 					
 					dc.w		32					; Y Position
 					dc.l		Try_Hardest			; Line 2
@@ -302,68 +299,61 @@ Try_On_Normal_Strings:
 							; 			Max letters per section = 25
 							; 			 Max sections on screen = 6
 
-Trans_Team_1:										
-	if SetRegion=1	; UK							
-			 Staff_X_Pos	Green_Staff, 11, 19			; Palette | X Position | # Letters
-			  Font_Staff 	"ENGLISH LOCALISATION"		; Text
+Trans_Team_1:																
+			 Staff_X_Pos	Green_Staff, 10, 20			; Palette | X Position | # Letters
+			  Font_Staff 	"LOCALIZACIÓN AL INGLÉS"	; Text
 					even
-	
-	else		    ; USA										
-			 Staff_X_Pos	Green_Staff, 11, 19			; Palette | X Position | # Letters
-			  Font_Staff 	"ENGLISH LOCALIZATION"		; Text
-					even
-	endc
 
 Trans_Team_2:
-			 Staff_X_Pos	Green_Staff, 12, 16			; Palette | X Position | # Letters
-			  Font_Staff 	"BY SCRAMBLED BEANS"		; Text
+		 Staff_X_Pos_Odd	Green_Staff, 11, 17			; Palette | X Position | # Letters
+			  Font_Staff 	"POR SCRAMBLED BEANS"		; Text
 					even
 					
 Trans_Leader:			
 			 Staff_X_Pos 	Green_Staff, 6, 11			; Palette | X Position | # Letters
-			  Font_Staff 	"COORDINATOR"				; Text			  
+			  Font_Staff 	"COORDINADOR"				; Text			  
 					even
 										
 Trans_Translator_Japan:			
-			 Staff_X_Pos 	Green_Staff, 6, 19			; Palette | X Position | # Letters
-			  Font_Staff 	"JAPANESE TRANSLATORS"		; Text			  
+			 Staff_X_Pos 	Green_Staff, 6, 20			; Palette | X Position | # Letters
+			  Font_Staff 	"TRADUCTORES DE JAPONÉS"	; Text			  
 					even
 					
-Trans_Translator_Spain:			
-			 Staff_X_Pos 	Green_Staff, 6, 18			; Palette | X Position | # Letters
-			  Font_Staff 	"SPANISH TRANSLATION"		; Text			  
+Trans_Translator_Other:			
+			 Staff_X_Pos 	Green_Staff, 6, 19			; Palette | X Position | # Letters
+			  Font_Staff 	"TRADUCCIÓN AL ESPAÑOL"		; Text			  
 					even
 					
 Trans_Programmer:			
-			 Staff_X_Pos 	Green_Staff, 6, 11			; Palette | X Position | # Letters
-			  Font_Staff 	"PROGRAMMERS"				; Text			  
+			 Staff_X_Pos 	Green_Staff, 6, 13			; Palette | X Position | # Letters
+			  Font_Staff 	"PROGRAMADORES"				; Text			  
 					even
 					
 Trans_Graphic:			
-			 Staff_X_Pos 	Green_Staff, 6, 14			; Palette | X Position | # Letters
-			  Font_Staff 	"GRAPHIC EDITORS"			; Text			  
+			 Staff_X_Pos 	Green_Staff, 6, 16			; Palette | X Position | # Letters
+			  Font_Staff 	"EDITORES GRÁFICOS"			; Text			  
 					even
 					
 Trans_Software:			
-			 Staff_X_Pos 	Green_Staff, 6, 17			; Palette | X Position | # Letters
-			  Font_Staff 	"SOFTWARE DESIGNERS"		; Text			  
+			 Staff_X_Pos 	Green_Staff, 6, 21			; Palette | X Position | # Letters
+			  Font_Staff 	"DISEÑADORES DE SOFTWARE"	; Text			  
 					even					
 					
 Trans_Thanks:			
-			 Staff_X_Pos 	Green_Staff, 6, 13			; Palette | X Position | # Letters
-			  Font_Staff 	"SPECIAL THANKS"			; Text			  
+			 Staff_X_Pos 	Green_Staff, 6, 15			; Palette | X Position | # Letters
+			  Font_Staff 	"AGRADECIMIENTOS"			; Text			  
 					even
 					
 ; ---------------------------------------------------------------------------------
 					
 Staff_Staff:			
-			 Staff_X_Pos 	Green_Staff, 14, 13			; Palette | X Position | # Letters
-			  Font_Staff 	"ORIGINAL STAFF"			; Text
+		 Staff_X_Pos_Odd	Green_Staff, 12, 16			; Palette | X Position | # Letters
+			  Font_Staff 	"PERSONAL ORIGINAL"			; Text
 					even
 					
 Staff_Producer:			
-			 Staff_X_Pos 	Green_Staff, 6, 8			; Palette | X Position | # Letters
-			  Font_Staff 	"PRODUCER"					; Text			  
+			 Staff_X_Pos 	Green_Staff, 6, 9			; Palette | X Position | # Letters
+			  Font_Staff 	"PRODUCTOR"					; Text			  
 					even
 					
 Staff_Director:			
@@ -372,38 +362,38 @@ Staff_Director:
 					even
 					
 Staff_Scenario:			
-			 Staff_X_Pos 	Green_Staff, 6, 8			; Palette | X Position | # Letters
-			  Font_Staff 	"SCENARIO"					; Text			  
+			 Staff_X_Pos 	Green_Staff, 6, 5			; Palette | X Position | # Letters
+			  Font_Staff 	"GUION"						; Text			  
 					even
 					
 Staff_Character:			
-			 Staff_X_Pos 	Green_Staff, 6, 17			; Palette | X Position | # Letters
-			  Font_Staff 	"CHARACTER DESIGNER"		; Text			  
+			 Staff_X_Pos 	Green_Staff, 6, 22			; Palette | X Position | # Letters
+			  Font_Staff 	"DISEÑADORA DE PERSONAJES"	; Text			  
 					even
 
 Staff_Graphic:			
-			 Staff_X_Pos 	Green_Staff, 6, 16			; Palette | X Position | # Letters
-			  Font_Staff 	"GRAPHIC DESIGNERS"			; Text
+			 Staff_X_Pos 	Green_Staff, 6, 19			; Palette | X Position | # Letters
+			  Font_Staff 	"DISEÑADORES GRÁFICOS"		; Text
 					even
 					
 Staff_Programmer:			
-			 Staff_X_Pos 	Green_Staff, 6, 10			; Palette | X Position | # Letters
-			  Font_Staff 	"PROGRAMMER"				; Text			  
+			 Staff_X_Pos 	Green_Staff, 6, 11			; Palette | X Position | # Letters
+			  Font_Staff 	"PROGRAMADOR"				; Text			  
 					even
 					
 Staff_Sound:			
-			 Staff_X_Pos 	Green_Staff, 6, 11			; Palette | X Position | # Letters
-			  Font_Staff 	"SOUND DRIVER"				; Text			  
+			 Staff_X_Pos 	Green_Staff, 6, 16			; Palette | X Position | # Letters
+			  Font_Staff 	"SOFTWARE DE SONIDO"		; Text			  
 					even
 					
 Staff_Music:			
-			 Staff_X_Pos 	Green_Staff, 6, 7			; Palette | X Position | # Letters
-			  Font_Staff 	"BGM & SFX"					; Text			  
+			 Staff_X_Pos 	Green_Staff, 6, 14			; Palette | X Position | # Letters
+			  Font_Staff 	"MÚSICA Y EFECTOS"			; Text			  
 					even
 					
 Staff_Manual:			
-			 Staff_X_Pos 	Green_Staff, 6, 16			; Palette | X Position | # Letters
-			  Font_Staff 	"MANUAL & PACKAGING"		; Text			  
+			 Staff_X_Pos 	Green_Staff, 6, 15			; Palette | X Position | # Letters
+			  Font_Staff 	"MANUAL Y EMBALAJE"			; Text			  
 					even
 					
 ; ---------------------------------------------------------------------------------
@@ -483,17 +473,10 @@ Trans_Puyo:
 			  Font_Staff 	"PUYO PUYO (WORLD)™"	   	; Text
 					even
 					
-Trans_Kirby:	
-	if SetRegion=1	; UK		
-			Staff_X_Pos 	White_Staff, 19, 18			; Palette | X Position | # Letters
-			  Font_Staff 	"KIRBY'S GHOST TRAP™"	   	; Text
-			        even
-	
-	else		    ; USA					
+Trans_Kirby:				
 			 Staff_X_Pos 	White_Staff, 19, 18			; Palette | X Position | # Letters
 			  Font_Staff 	"KIRBY'S AVALANCHE™"	   	; Text
 				    even
-	endc
 					
 Trans_Yy:			
 			 Staff_X_Pos 	White_Staff, 19, 2			; Palette | X Position | # Letters
@@ -585,50 +568,45 @@ Staff_Ichi:
 ; ---------------------------------------------------------------------------------
 
 Staff_Fellows_1:			
-			 Staff_X_Pos 	White_Staff, 8, 15			; Palette | X Position | # Letters
-			  Font_Staff 	"SPECIAL THANKS TO"			; Text
+			 Staff_X_Pos 	White_Staff, 7, 22			; Palette | X Position | # Letters
+			  Font_Staff 	"¡AGRADECIMIENTOS A TODOS"	; Text
 					even
 
 Staff_Fellows_2:			
-			 Staff_X_Pos 	White_Staff, 18, 14			; Palette | X Position | # Letters
-			  Font_Staff 	"ALL OUR FELLOWS!"			; Text
+			 Staff_X_Pos 	White_Staff, 15, 19			; Palette | X Position | # Letters
+			  Font_Staff 	"NUESTROS COMPAÑEROS!"		; Text
 					even					
 
 ; ---------------------------------------------------------------------------------
 
 Try_On:
-			 Staff_X_Pos 	Green_Staff, 8, 12			; Palette | X Position | # Letters
-			  Font_Staff	"TRY PLAYING ON" 			; Text
+			 Staff_X_Pos 	Green_Staff, 7, 14			; Palette | X Position | # Letters
+			  Font_Staff	"¡INTÉNTALO EN LA" 			; Text
 					even
-					
-Try_On_The:
-			 Staff_X_Pos 	Green_Staff, 8, 15			; Palette | X Position | # Letters
-			  Font_Staff	"TRY PLAYING ON THE" 		; Text
-					even
-										
+															
 Try_Normal:
-			 Staff_X_Pos 	Green_Staff, 16, 17			; Palette | X Position | # Letters
-			  Font_Staff	"NORMAL DIFFICULTY!" 		; Text
+			 Staff_X_Pos 	Green_Staff, 17, 17			; Palette | X Position | # Letters
+			  Font_Staff	"DIFICULTAD NORMAL!" 		; Text
 					even
 										
 Try_Hard:
-			 Staff_X_Pos 	Green_Staff, 18, 15			; Palette | X Position | # Letters
-			  Font_Staff	"HARD DIFFICULTY!" 			; Text
+			 Staff_X_Pos 	Green_Staff, 16, 18			; Palette | X Position | # Letters
+			  Font_Staff	"DIFICULTAD DIFÍCIL!" 		; Text
 					even
 									
 Try_Hardest:
-			 Staff_X_Pos 	Green_Staff, 15, 18			; Palette | X Position | # Letters
-			  Font_Staff	"HARDEST DIFFICULTY!" 		; Text
+			 Staff_X_Pos 	Green_Staff, 12, 21			; Palette | X Position | # Letters
+			  Font_Staff	"DIFICULTAD MUY DIFÍCIL!" 	; Text
 					even
 
 Thank_You:
-			 Staff_X_Pos 	Green_Staff, 11, 8			; Palette | X Position | # Letters
-			  Font_Staff	"THANK YOU" 				; Text
+			 Staff_X_Pos 	Green_Staff, 13, 8			; Palette | X Position | # Letters
+			  Font_Staff	"¡GRACIAS" 					; Text
 					even
 
 For_Playing:
-			 Staff_X_Pos 	Green_Staff, 19, 11			; Palette | X Position | # Letters
-			  Font_Staff	"FOR PLAYING!" 				; Text
+			 Staff_X_Pos 	Green_Staff, 19, 9			; Palette | X Position | # Letters
+			  Font_Staff	"POR JUGAR!" 				; Text
 					even
 
 Sega_Copyright:
