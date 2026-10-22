@@ -1,7 +1,7 @@
 
 					; Text Position (same for STORY and ENDLESS text)
 
-Modes_Position_X:		equ 9		; Modes Position - X Position
+Modes_Position_X:		equ 8		; Modes Position - X Position
 Modes_Position_Y:		equ 26		; Modes Position - Y Position
 
 ; ---------------------------------------------------------------------------------
@@ -9,7 +9,7 @@ Modes_Position_Y:		equ 26		; Modes Position - Y Position
 Mode_Story:
 					; Text - STORY MODE
 										
-			   FONT_RANK 	" STORY MODE "			; Text
+			   FONT_RANK 	"MODO HISTORIA"			; Text
 				End_Text							; End				
 					even					
 		
@@ -18,7 +18,7 @@ Mode_Story:
 Mode_Endless:
 					; Text - ENDLESS MODE
 										
-			   FONT_RANK 	"ENDLESS MODE"			; Text
+			   FONT_RANK 	"MODO INFINITO"			; Text
 				End_Text							; End					
 					even					
 		
