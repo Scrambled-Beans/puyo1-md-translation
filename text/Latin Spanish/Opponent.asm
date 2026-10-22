@@ -11,7 +11,7 @@ Opp_Lesson:
 					; Opponenet - Lesson
 					
 		 Set_of_Graphics	12						; Number of Letters					
-			 Font_Battle 	"  LESSON º  "			; Text
+			 Font_Battle 	" LECCIÓN º  "			; Text
 					even					
 		
 ; ---------------------------------------------------------------------------------
@@ -20,7 +20,7 @@ Opp_Stage_1:
 					; Opponenet - Stage 1-9
 					
 		 Set_of_Graphics	12						; Number of Letters					
-			 Font_Battle 	"  STAGE º   "			; Text		
+			 Font_Battle 	"  NIVEL º   "			; Text		
 					even					
 		
 ; ---------------------------------------------------------------------------------
@@ -29,7 +29,7 @@ Opp_Stage_2:
 					; Opponenet - Stage 10-12
 					
 		 Set_of_Graphics	12						; Number of Letters					
-			 Font_Battle 	"  STAGE ¹º  "			; Text		
+			 Font_Battle 	"  NIVEL ¹º  "			; Text		
 					even					
 		
 ; ---------------------------------------------------------------------------------
@@ -39,7 +39,7 @@ Opp_Final:
 					; Opponenet - Final
 					
 		 Set_of_Graphics	14						; Number of Letters					
-			 Font_Battle 	" & "						; Text			 
+			 Font_Battle 	" ) "						; Text			 
 					even					
 		
 ; ---------------------------------------------------------------------------------
