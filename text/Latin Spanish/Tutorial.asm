@@ -14,7 +14,7 @@ Tutorial_Score:
 			 Plane_Piece	Green_VS, $500, High, No, No
 					
 							; Text
-			 Font_Battle 	"SCORE"
+			 Font_Battle 	"PUNTOS"
 			 
 				End_Text	; End
 					even		
@@ -26,15 +26,15 @@ Tutorial_1:
 		Text_Start		
 		                   ; X  L
 		Line_Number			 1, 1
-		Font_Tutorial 		"Use LEFT or RIGHT", Mode_Tutorial
+		Font_Tutorial 		"Muévete con", Mode_Tutorial
 				
 				           ; X  L
 		Line_Number			 1, 2
-		Font_Tutorial 		"to move them to", Mode_Tutorial
+		Font_Tutorial 		"IZQUIERDA y", Mode_Tutorial
 		
 				           ; X  L
 		Line_Number			 1, 3
-		Font_Tutorial 		"and fro.", Mode_Tutorial
+		Font_Tutorial 		"DERECHA.", Mode_Tutorial
 				
 		Text_End
 		
@@ -47,21 +47,21 @@ Tutorial_2:
 		Text_Start		
 		                   ; X  L
 		Line_Number			 1, 1
-		Font_Tutorial 		"Press the BUTTON", Mode_Tutorial
+		Font_Tutorial 		"Pulsa un BOTÓN", Mode_Tutorial
 				
 				           ; X  L
 		Line_Number			 1, 2
-		Font_Tutorial 		"to make them swirl", Mode_Tutorial
+		Font_Tutorial 		"para dar vueltas", Mode_Tutorial
 		
 				           ; X  L
 		Line_Number			 1, 3
-		Font_Tutorial 		"round and round.", Mode_Tutorial
+		Font_Tutorial 		"y vueltas.", Mode_Tutorial
 		
 		Frames_Delay		60
 		
 				           ; X  L
 		Line_Number			 1, 5
-		Font_Tutorial 		"Spin, spin, spin!", Mode_Tutorial
+		Font_Tutorial 		"¡Gira, gira, gira!", Mode_Tutorial
 		
 		Text_End
 		
@@ -74,11 +74,11 @@ Tutorial_3:
 		Text_Start		
 		                   ; X  L
 		Line_Number			 1, 1
-		Font_Tutorial 		"Hold DOWN to make", Mode_Tutorial
+		Font_Tutorial 		"Mantén pulsado ABAJO", Mode_Tutorial
 				
 				           ; X  L
 		Line_Number			 1, 2
-		Font_Tutorial 		"them fall faster.", Mode_Tutorial
+		Font_Tutorial 		"para caer rápido.", Mode_Tutorial
 		
 		Text_End
 		
@@ -91,20 +91,16 @@ Tutorial_4:
 		Text_Start		
 		                   ; X  L
 		Line_Number			 1, 1
-		Font_Tutorial 		"Match four or more", Mode_Tutorial
+		Font_Tutorial 		"Combina 4 o más", Mode_Tutorial
 				
 				           ; X  L
 		Line_Number			 1, 2
 		
-	if SetRegion=1	; UK
-		Font_Tutorial 		"of the same colour", Mode_Tutorial
-	else			; USA
-		Font_Tutorial 		"of the same color", Mode_Tutorial
-	endc
-				
+		Font_Tutorial 		"del mismo color", Mode_Tutorial
+
 				           ; X  L
 		Line_Number			 1, 3
-		Font_Tutorial 		"to make them pop.", Mode_Tutorial
+		Font_Tutorial 		"para reventarlos.", Mode_Tutorial
 		
 		Text_End
 		
@@ -117,21 +113,17 @@ Tutorial_5:
 		Text_Start		
 		                   ; X  L
 		Line_Number			 1, 1
-		Font_Tutorial 		"When they are", Mode_Tutorial
+		Font_Tutorial 		"Si ellos se acumulan", Mode_Tutorial
 				
 				           ; X  L
 		Line_Number			 1, 2
-		Font_Tutorial 		"piled up to the", Mode_Tutorial
-				
-				           ; X  L
-		Line_Number			 1, 3
-		Font_Tutorial 		"top of the board,", Mode_Tutorial
+		Font_Tutorial 		"hasta arriba,", Mode_Tutorial
 		
 		Frames_Delay		35
 		
 						   ; X  L
-		Line_Number			 1, 4
-		Font_Tutorial 		"it's GAME OVER!", Mode_Tutorial
+		Line_Number			 1, 3
+		Font_Tutorial 		"¡SE ACABÓ!", Mode_Tutorial
 		
 		Text_End
 		
@@ -144,17 +136,17 @@ Tutorial_6:
 		Text_Start		
 		                   ; X  L
 		Line_Number			 1, 1
-		Font_Tutorial 		"Chains!", Mode_Tutorial
+		Font_Tutorial 		"¡Cadenas!", Mode_Tutorial
 		
 		Frames_Delay		14
 				
 				           ; X  L
 		Line_Number			 1, 3
-		Font_Tutorial 		"Get a high score", Mode_Tutorial
+		Font_Tutorial 		"¡Obtén más puntos", Mode_Tutorial
 				
 				           ; X  L
 		Line_Number			 1, 4
-		Font_Tutorial 		"using chains!", Mode_Tutorial
+		Font_Tutorial 		"haciendo cadenas!", Mode_Tutorial
 		
 		Frames_Delay		70
 		
@@ -163,31 +155,29 @@ Tutorial_6:
 		Text_Start		
 		                   ; X  L
 		Line_Number			 1, 1
-		Font_Tutorial 		"During a match,", Mode_Tutorial		
-				
-		Frames_Delay		35
+		Font_Tutorial 		"Esto provocará que", Mode_Tutorial		
 		
 						   ; X  L
 		Line_Number			 1, 2
-		Font_Tutorial 		"this will cause", Mode_Tutorial	
+		Font_Tutorial 		"puyos basura", Mode_Tutorial	
 				
 				           ; X  L
 		Line_Number			 1, 3
-		Font_Tutorial 		"garbage puyo to", Mode_Tutorial			
+		Font_Tutorial 		"lluevan sobre el", Mode_Tutorial			
 		
 				           ; X  L
 		Line_Number			 1, 4
-		Font_Tutorial 		"rain down on the ", Mode_Tutorial	
+		Font_Tutorial 		"área del oponente", Mode_Tutorial	
 		
 				           ; X  L
 		Line_Number			 1, 5
-		Font_Tutorial 		"opponent's board.", Mode_Tutorial	
+		Font_Tutorial 		"durante la batalla.", Mode_Tutorial	
 		
 		Frames_Delay		45
 		
 				           ; X  L
 		Line_Number			 1, 7
-		Font_Tutorial 		"How delightful!", Mode_Tutorial	
+		Font_Tutorial 		"¡Qué maravilla!", Mode_Tutorial	
 		
 		Text_End
 		
@@ -200,11 +190,11 @@ Tutorial_7:
 		Text_Start		
 		                   ; X  L
 		Line_Number			 1, 1
-		Font_Tutorial 		"Let's start with", Mode_Tutorial
+		Font_Tutorial 		"Empecemos con una", Mode_Tutorial
 				
 				           ; X  L
 		Line_Number			 1, 2
-		Font_Tutorial 		"a 2-chain.", Mode_Tutorial
+		Font_Tutorial 		"cadena de 2.", Mode_Tutorial
 		
 		Text_End
 		
@@ -219,13 +209,13 @@ Tutorial_8:
 		Text_Start		
 		                   ; X  L
 		Line_Number			 1, 1
-		Font_Tutorial 		"See?", Mode_Tutorial
+		Font_Tutorial 		"¿Lo ves?", Mode_Tutorial
 		
 		Frames_Delay		35
 		
 				           ; X  L
 		Line_Number			 1, 2
-		Font_Tutorial 		"Just like this.", Mode_Tutorial
+		Font_Tutorial 		"Se hace así.", Mode_Tutorial
 		
 		Text_End
 		
@@ -238,13 +228,13 @@ Tutorial_9:
 		Text_Start		
 		                   ; X  L
 		Line_Number			 1, 1
-		Font_Tutorial 		"Okay,", Mode_Tutorial
+		Font_Tutorial 		"Bien,", Mode_Tutorial
 		
 		Frames_Delay		35
 				
 				           ; X  L
 		Line_Number			 1, 2
-		Font_Tutorial 		"here's another.", Mode_Tutorial
+		Font_Tutorial 		"ahí va otra.", Mode_Tutorial
 		
 		Text_End
 		
@@ -259,7 +249,7 @@ Tutorial_10:
 		Text_Start		
 		                   ; X  L
 		Line_Number			 1, 1
-		Font_Tutorial 		"Ta-da!", Mode_Tutorial
+		Font_Tutorial 		"¡Taraaan!", Mode_Tutorial
 		
 		Text_End
 		
@@ -272,7 +262,7 @@ Tutorial_11:
 		Text_Start		
 		                   ; X  L
 		Line_Number			 1, 1
-		Font_Tutorial 		"Here's one more.", Mode_Tutorial
+		Font_Tutorial 		"Una más.", Mode_Tutorial
 		
 		Text_End
 		
@@ -287,17 +277,17 @@ Tutorial_12:
 		Text_Start		
 		                   ; X  L
 		Line_Number			 1, 1
-		Font_Tutorial 		"Just keep this in", Mode_Tutorial
+		Font_Tutorial 		"Debes tenerlo muy", Mode_Tutorial
 				
 				           ; X  L
 		Line_Number			 1, 2
-		Font_Tutorial 		"mind, ", Mode_Tutorial
+		Font_Tutorial 		"en claro, ", Mode_Tutorial
 		
 		Frames_Delay		35
 				
 				           ; X  L
-		Line_Number			 7, 2
-		Font_Tutorial 		"okay?", Mode_Tutorial
+		Line_Number			11, 2
+		Font_Tutorial 		"¿bien?", Mode_Tutorial
 		
 		Text_End
 
@@ -310,27 +300,25 @@ Tutorial_13:
 		Text_Start		
 		                   ; X  L
 		Line_Number			 1, 1
-		Font_Tutorial 		"Depending on how", Mode_Tutorial
+		Font_Tutorial 		"Según cómo vayan las", Mode_Tutorial
 				
 				           ; X  L
 		Line_Number			 1, 2
-		Font_Tutorial 		"things go, ", Mode_Tutorial
+		Font_Tutorial 		"cosas, ", Mode_Tutorial
 		
 		Frames_Delay		35
 				
 				           ; X  L
-		Line_Number			12, 2
-		Font_Tutorial 		"you can", Mode_Tutorial
+		Line_Number			 8, 2
+		Font_Tutorial 		"¡también", Mode_Tutorial
 				
 				           ; X  L
 		Line_Number			 1, 3
-		Font_Tutorial 		"also make 3-chains,", Mode_Tutorial	
-
-		Frames_Delay		35
+		Font_Tutorial 		"puedes hacer cadenas", Mode_Tutorial	
 		
 						   ; X  L
 		Line_Number			 1, 4
-		Font_Tutorial 		"or even 4-chains!", Mode_Tutorial
+		Font_Tutorial 		"de 3 o incluso 4!", Mode_Tutorial
 		
 		Text_End	
 
@@ -343,21 +331,21 @@ Tutorial_14:
 		Text_Start		
 		                   ; X  L
 		Line_Number			 1, 1
-		Font_Tutorial 		"KER-THUD!", Mode_Tutorial
+		Font_Tutorial 		"¡PUM!", Mode_Tutorial
 
 		Frames_Delay		60
 
 		                   ; X  L
 		Line_Number			 1, 3
-		Font_Tutorial 		"The garbage puyo", Mode_Tutorial
+		Font_Tutorial 		"¡Los puyos basura", Mode_Tutorial
 
 		                   ; X  L
 		Line_Number			 1, 4
-		Font_Tutorial 		"are making a mess", Mode_Tutorial
+		Font_Tutorial 		"están haciendo un", Mode_Tutorial
 
 		                   ; X  L
 		Line_Number			 1, 5
-		Font_Tutorial 		"of things!", Mode_Tutorial
+		Font_Tutorial 		"desastre!", Mode_Tutorial
 		
 		Frames_Delay		75
 		
@@ -365,25 +353,28 @@ Tutorial_14:
 		Text_Start
 		                   ; X  L
 		Line_Number			 1, 1
-		Font_Tutorial 		"When matching puyo,", Mode_Tutorial		
+		Font_Tutorial 		"Cuando combinas", Mode_Tutorial	
+
+		Line_Number			 1, 2
+		Font_Tutorial 		"puyos, ", Mode_Tutorial			
 		
 		Frames_Delay		35
 		
 				           ; X  L
-		Line_Number			 1, 2
-		Font_Tutorial 		"the reaction will", Mode_Tutorial
+		Line_Number			 7, 2
+		Font_Tutorial 		"¡la explosión", Mode_Tutorial
 		
 				           ; X  L
 		Line_Number			 1, 3
-		Font_Tutorial 		"cause any adjacent", Mode_Tutorial
+		Font_Tutorial 		"causará que la", Mode_Tutorial
 		
 				           ; X  L
 		Line_Number			 1, 4
-		Font_Tutorial 		"garbage puyo to", Mode_Tutorial
+		Font_Tutorial 		"basura adyacente", Mode_Tutorial
 		
 				           ; X  L
 		Line_Number			 1, 5
-		Font_Tutorial 		"also pop!", Mode_Tutorial		
+		Font_Tutorial 		"también reviente!", Mode_Tutorial		
 		
 		Text_End
 		
