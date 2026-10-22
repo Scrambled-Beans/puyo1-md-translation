@@ -286,7 +286,7 @@ Games_Won:
 
 		   Position_Text	16, 2, $C000
 			 Plane_Piece	White_VS, $0, High, No, No
-			 Font_Battle 	"@"
+			 Font_Battle 	"["
 				End_Text	
 					even
 				
@@ -295,7 +295,7 @@ Games_Won:
 
 		   Position_Text	16, 4, $C000
 			 Plane_Piece	White_VS, $0, High, No, No
-			 Font_Battle 	"|"
+			 Font_Battle 	"]"
 				End_Text
 					even
 
