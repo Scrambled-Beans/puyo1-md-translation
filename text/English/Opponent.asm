@@ -39,7 +39,7 @@ Opp_Final:
 					; Opponenet - Final
 					
 		 Set_of_Graphics	14						; Number of Letters					
-			 Font_Battle 	" & "						; Text			 
+			 Font_Battle 	" ( "					; Text			 
 					even					
 		
 ; ---------------------------------------------------------------------------------
