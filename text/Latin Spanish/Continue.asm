@@ -7,6 +7,6 @@ Cont2_Position_Y:		equ 25		; Continue 2 - Y Position
 
 ; ---------------------------------------------------------------------------------
 
-Cont_Row_Tiles:			equ 23		; # Tiles for row in "Continue" graphic
+Cont_Row_Tiles:			equ 18		; # Tiles for row in "Continue" graphic
 
 ; ---------------------------------------------------------------------------------
