@@ -26,7 +26,7 @@ Tutorial_1:
 		Text_Start		
 		                   ; X  L
 		Line_Number			 1, 1
-		Font_Tutorial 		"Use LEFT or RIGHT", Mode_Tutorial
+		Font_Tutorial 		"Use LEFT and RIGHT", Mode_Tutorial
 				
 				           ; X  L
 		Line_Number			 1, 2
@@ -117,20 +117,16 @@ Tutorial_5:
 		Text_Start		
 		                   ; X  L
 		Line_Number			 1, 1
-		Font_Tutorial 		"When they are", Mode_Tutorial
+		Font_Tutorial 		"If they are piled", Mode_Tutorial
 				
 				           ; X  L
 		Line_Number			 1, 2
-		Font_Tutorial 		"piled up to the", Mode_Tutorial
-				
-				           ; X  L
-		Line_Number			 1, 3
-		Font_Tutorial 		"top of the board,", Mode_Tutorial
+		Font_Tutorial 		"up to the top,", Mode_Tutorial
 		
 		Frames_Delay		35
 		
 						   ; X  L
-		Line_Number			 1, 4
+		Line_Number			 1, 3
 		Font_Tutorial 		"it's GAME OVER!", Mode_Tutorial
 		
 		Text_End
@@ -163,7 +159,7 @@ Tutorial_6:
 		Text_Start		
 		                   ; X  L
 		Line_Number			 1, 1
-		Font_Tutorial 		"During a match,", Mode_Tutorial		
+		Font_Tutorial 		"During a battle,", Mode_Tutorial		
 				
 		Frames_Delay		35
 		
@@ -177,7 +173,7 @@ Tutorial_6:
 		
 				           ; X  L
 		Line_Number			 1, 4
-		Font_Tutorial 		"rain down on the ", Mode_Tutorial	
+		Font_Tutorial 		"rain down on the", Mode_Tutorial	
 		
 				           ; X  L
 		Line_Number			 1, 5
