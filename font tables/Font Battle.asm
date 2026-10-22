@@ -42,18 +42,54 @@ c substr 1+i,1+i,\text
 			; º (1s digit)
 			elseif ("\c"="º")
 				dc.b	$FF
-												
+																				
+			; Á (Large Font)
+			elseif ("\c"="Á")
+				dc.b	76
+			
+			; É (Large Font)
+			elseif ("\c"="É")
+				dc.b	79
+			
+			; Í (Large Font)
+			elseif ("\c"="Í")
+				dc.b	82
+			
+			; Ó (Large Font)
+			elseif ("\c"="Ó")
+				dc.b	85
+			
+			; Ú (Large Font)
+			elseif ("\c"="Ú")
+				dc.b	88
+				
+			; é (Small Font)
+			elseif ("\c"="é")
+				dc.b	192
+				
+			; ñ (Small Font)
+			elseif ("\c"="ñ")
+				dc.b	194
+				
+			; ü (Small Font)
+			elseif ("\c"="ü")
+				dc.b	196
+				
 			; $ = START (Small Font)
 			elseif ("\c"="$")
 				dc.b	$D4, $D6, $D8, $DA, $DC, $DE
-				
+	
 			; ~ = FINAL STAGE (Small Font)
 			elseif ("\c"="~")
 				dc.b	$C8, $CA, $CC, $CE, $D0, $D2, $D4, $D6, $D8, $DA, $DC, $DE
 				
-			; & = FINAL STAGE (Large Font)
-			elseif ("\c"="&")
+			; ( = FINAL STAGE (Large Font)
+			elseif ("\c"="(")
 				dc.b	$80, $82, $84, $86, $88, $8A, $8C, $8E, $90, $92, $94, $96
+				
+			; ) = NIVEL FINAL (Large Font)
+			elseif ("\c"=")")
+				dc.b	$A0, $A2, $A4, $A6, $A8, $AA, $AC, $AE, $B0, $B2, $B4, $B6
 				
 			; @ = GAMES
 			elseif ("\c"="@")
@@ -62,22 +98,6 @@ c substr 1+i,1+i,\text
 			; | = WON
 			elseif ("\c"="|")
 				dc.b	$EA, $EC, $EE, $F0, $F2, $F4, $F6, $F8, $FA, $FC
-				
-			; É (Large Font)
-			elseif ("\c"="É")
-				dc.b	76
-				
-			; é
-			elseif ("\c"="é")
-				dc.b	192
-				
-			; ñ
-			elseif ("\c"="ñ")
-				dc.b	194
-				
-			; ü
-			elseif ("\c"="ü")
-				dc.b	196
 							
 			else
 				dc.b	0
