@@ -14,7 +14,7 @@ VS_Level:
 			 Plane_Piece	Green_VS, $500, High, No, No
 					
 							; Text
-			 Font_Battle 	"LV"
+			 Font_Battle 	"NV"
 			 
 				End_Text	; End
 					even					
@@ -31,7 +31,7 @@ P1_Level:
 
 		   Position_Text	3, 4, $C000
 			 Plane_Piece	Red_VS, $500, High, No, No
-			 Font_Battle 	"SELECT LEVEL"
+			 Font_Battle 	"ELEGIR NIVEL"
 				End_Text
 					even
 					
@@ -45,7 +45,7 @@ P2_Level:
 
 		   Position_Text	27, 4, $C000
 			 Plane_Piece	Blue_VS, $500, High, No, No
-			 Font_Battle 	"SELECT LEVEL"
+			 Font_Battle 	"ELEGIR NIVEL"
 				End_Text
 					even	
 
@@ -59,9 +59,9 @@ VS_Player:
 			
 				; Graphic 1				
 
-		   Position_Text	19, 3, $C000
+		   Position_Text	16, 3, $C000
 			 Plane_Piece	Green_VS, $500, High, No, No
-			 Font_Battle 	"NEXT"
+			 Font_Battle 	"SIGUIENTES"
 				End_Text
 					even
 					
@@ -70,7 +70,7 @@ VS_Player:
 
 		   Position_Text	17, 5, $C000
 			 Plane_Piece	White_VS, $500, High, No, No
-			 Font_Battle 	"1p"
+			 Font_Battle 	"j1"
 				End_Text
 					even
 					
@@ -79,7 +79,7 @@ VS_Player:
 
 		   Position_Text	23, 5, $C000
 			 Plane_Piece	White_VS, $500, High, No, No
-			 Font_Battle 	"2p"
+			 Font_Battle 	"j2"
 				End_Text
 					even					
 					
@@ -88,7 +88,7 @@ VS_Player:
 
 		   Position_Text	17, 21, $C000
 			 Plane_Piece	Green_VS, $500, High, No, No
-			 Font_Battle 	"SCORE"
+			 Font_Battle 	"PUNTOS"
 				End_Text
 					even						
 
@@ -105,7 +105,7 @@ Player_Press:
 							; X | Y	
 		  Position_Board	3, 11				
 			 Plane_Piece	White_VS, $500, High, No, No
-			 Font_Battle 	"#p press"
+			 Font_Battle 	"j# pulsa"
 				End_Text
 					even
 					
@@ -128,11 +128,11 @@ Level_1_VS:
 		  Set_of_Sprites	5					
 					
 							; Pal | Letter | Priority | X | Y | Hori Flip | Vert Flip | Width | Height | Link
-	   Sprite_Piece_Char	White_VS, "s", High, -20, -6, No, No, Pixels_8, Pixels_16, 2
-	   Sprite_Piece_Char	White_VS, "w", High, -12, -6, No, No, Pixels_8, Pixels_16, 2	
-	   Sprite_Piece_Char	White_VS, "e", High,  -4, -6, No, No, Pixels_8, Pixels_16, 2	
-	   Sprite_Piece_Char	White_VS, "e", High,   4, -6, No, No, Pixels_8, Pixels_16, 2	
-	   Sprite_Piece_Char	White_VS, "t", High,  12, -6, No, No, Pixels_8, Pixels_16, 2
+	   Sprite_Piece_Char	White_VS, "d", High, -20, -6, No, No, Pixels_8, Pixels_16, 2
+	   Sprite_Piece_Char	White_VS, "u", High, -12, -6, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "l", High,  -4, -6, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "c", High,   4, -6, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "e", High,  12, -6, No, No, Pixels_8, Pixels_16, 2
 					
 					even	   
 					
@@ -142,12 +142,13 @@ Level_2_VS:
 					; Level 2 - Mild
 					
 							; Set of Sprites
-		  Set_of_Sprites	4					
+		  Set_of_Sprites	5					
 					
-	   Sprite_Piece_Char	White_VS, "m", High, -16, -6, No, No, Pixels_8, Pixels_16, 2
-	   Sprite_Piece_Char	White_VS, "i", High,  -8, -6, No, No, Pixels_8, Pixels_16, 2	
-	   Sprite_Piece_Char	White_VS, "l", High,   0, -6, No, No, Pixels_8, Pixels_16, 2	
-	   Sprite_Piece_Char	White_VS, "d", High,   8, -6, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "s", High, -20, -6, No, No, Pixels_8, Pixels_16, 2
+	   Sprite_Piece_Char	White_VS, "u", High, -12, -6, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "a", High,  -4, -6, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "v", High,   4, -6, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "e", High,  12, -6, No, No, Pixels_8, Pixels_16, 2
 	   
 					even	
 
@@ -157,11 +158,16 @@ Level_3_VS:
 					; Level 3 - Hot
 					
 							; Set of Sprites
-		  Set_of_Sprites	3					
-					
-	   Sprite_Piece_Char	White_VS, "h", High, -12, -6, No, No, Pixels_8, Pixels_16, 2
-	   Sprite_Piece_Char	White_VS, "o", High,  -4, -6, No, No, Pixels_8, Pixels_16, 2	
-	   Sprite_Piece_Char	White_VS, "t", High,   4, -6, No, No, Pixels_8, Pixels_16, 2	
+		  Set_of_Sprites	8					
+
+	   Sprite_Piece_Char	White_VS, "p", High, -32, -6, No, No, Pixels_8, Pixels_16, 2
+	   Sprite_Piece_Char	White_VS, "i", High, -24, -6, No, No, Pixels_8, Pixels_16, 2					
+	   Sprite_Piece_Char	White_VS, "c", High, -16, -6, No, No, Pixels_8, Pixels_16, 2
+	   Sprite_Piece_Char	White_VS, "o", High,  -8, -6, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "s", High,   0, -6, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "i", High,   8, -6, No, No, Pixels_8, Pixels_16, 2
+	   Sprite_Piece_Char	White_VS, "t", High,  16, -6, No, No, Pixels_8, Pixels_16, 2
+	   Sprite_Piece_Char	White_VS, "o", High,  24, -6, No, No, Pixels_8, Pixels_16, 2
 
 					even	
 					
@@ -171,13 +177,15 @@ Level_4_VS:
 					; Level 4 - Spicy
 					
 							; Set of Sprites
-		  Set_of_Sprites	5					
-					
-	   Sprite_Piece_Char	White_VS, "s", High, -20, -6, No, No, Pixels_8, Pixels_16, 2
-	   Sprite_Piece_Char	White_VS, "p", High, -12, -6, No, No, Pixels_8, Pixels_16, 2	
-	   Sprite_Piece_Char	White_VS, "i", High,  -4, -6, No, No, Pixels_8, Pixels_16, 2	
-	   Sprite_Piece_Char	White_VS, "c", High,   4, -6, No, No, Pixels_8, Pixels_16, 2	
-	   Sprite_Piece_Char	White_VS, "y", High,  12, -6, No, No, Pixels_8, Pixels_16, 2
+		  Set_of_Sprites	7					
+
+	   Sprite_Piece_Char	White_VS, "p", High, -28, -6, No, No, Pixels_8, Pixels_16, 2					
+	   Sprite_Piece_Char	White_VS, "i", High, -20, -6, No, No, Pixels_8, Pixels_16, 2
+	   Sprite_Piece_Char	White_VS, "c", High, -12, -6, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "a", High,  -4, -6, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "n", High,   4, -6, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "t", High,  12, -6, No, No, Pixels_8, Pixels_16, 2
+	   Sprite_Piece_Char	White_VS, "e", High,  20, -6, No, No, Pixels_8, Pixels_16, 2
 
 					even	
 
@@ -187,13 +195,16 @@ Level_5_VS:
 					; Level 5 - Fiery
 					
 							; Set of Sprites
-		  Set_of_Sprites	5					
+		  Set_of_Sprites	8					
 					
-	   Sprite_Piece_Char	White_VS, "f", High, -20, -6, No, No, Pixels_8, Pixels_16, 2
-	   Sprite_Piece_Char	White_VS, "i", High, -12, -6, No, No, Pixels_8, Pixels_16, 2	
-	   Sprite_Piece_Char	White_VS, "e", High,  -4, -6, No, No, Pixels_8, Pixels_16, 2	
-	   Sprite_Piece_Char	White_VS, "r", High,   4, -6, No, No, Pixels_8, Pixels_16, 2	
-	   Sprite_Piece_Char	White_VS, "y", High,  12, -6, No, No, Pixels_8, Pixels_16, 2
+	   Sprite_Piece_Char	White_VS, "a", High, -32, -6, No, No, Pixels_8, Pixels_16, 2
+	   Sprite_Piece_Char	White_VS, "r", High, -24, -6, No, No, Pixels_8, Pixels_16, 2					
+	   Sprite_Piece_Char	White_VS, "d", High, -16, -6, No, No, Pixels_8, Pixels_16, 2
+	   Sprite_Piece_Char	White_VS, "i", High,  -8, -6, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "e", High,   0, -6, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "n", High,   8, -6, No, No, Pixels_8, Pixels_16, 2
+	   Sprite_Piece_Char	White_VS, "t", High,  16, -6, No, No, Pixels_8, Pixels_16, 2
+	   Sprite_Piece_Char	White_VS, "e", High,  24, -6, No, No, Pixels_8, Pixels_16, 2
 
 					even	
 					
@@ -205,11 +216,11 @@ Level_1_Endless:
 							; Set of Sprites
 		  Set_of_Sprites	5					
 
-	   Sprite_Piece_Char	White_VS, "s", High, -20, 3, No, No, Pixels_8, Pixels_16, 2
-	   Sprite_Piece_Char	White_VS, "w", High, -12, 3, No, No, Pixels_8, Pixels_16, 2	
-	   Sprite_Piece_Char	White_VS, "e", High,  -4, 3, No, No, Pixels_8, Pixels_16, 2	
-	   Sprite_Piece_Char	White_VS, "e", High,   4, 3, No, No, Pixels_8, Pixels_16, 2	
-	   Sprite_Piece_Char	White_VS, "t", High,  12, 3, No, No, Pixels_8, Pixels_16, 2			
+	   Sprite_Piece_Char	White_VS, "d", High, -20, 3, No, No, Pixels_8, Pixels_16, 2
+	   Sprite_Piece_Char	White_VS, "u", High, -12, 3, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "l", High,  -4, 3, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "c", High,   4, 3, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "e", High,  12, 3, No, No, Pixels_8, Pixels_16, 2			
 	
 					even	
 	
@@ -219,12 +230,13 @@ Level_2_Endless:
 					; Level 2 - Mild
 					
 							; Set of Sprites
-		  Set_of_Sprites	4					
-					
-	   Sprite_Piece_Char	White_VS, "m", High, -16, 3, No, No, Pixels_8, Pixels_16, 2
-	   Sprite_Piece_Char	White_VS, "i", High,  -8, 3, No, No, Pixels_8, Pixels_16, 2	
-	   Sprite_Piece_Char	White_VS, "l", High,   0, 3, No, No, Pixels_8, Pixels_16, 2	
-	   Sprite_Piece_Char	White_VS, "d", High,   8, 3, No, No, Pixels_8, Pixels_16, 2	
+		  Set_of_Sprites	5					
+
+	   Sprite_Piece_Char	White_VS, "s", High, -20, 3, No, No, Pixels_8, Pixels_16, 2
+	   Sprite_Piece_Char	White_VS, "u", High, -12, 3, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "a", High,  -4, 3, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "v", High,   4, 3, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "e", High,  12, 3, No, No, Pixels_8, Pixels_16, 2	
 
 					even	
 
@@ -234,11 +246,16 @@ Level_3_Endless:
 					; Level 3 - Hot
 					
 							; Set of Sprites
-		  Set_of_Sprites	3					
-					
-	   Sprite_Piece_Char	White_VS, "h", High, -12, 3, No, No, Pixels_8, Pixels_16, 2
-	   Sprite_Piece_Char	White_VS, "o", High,  -4, 3, No, No, Pixels_8, Pixels_16, 2	
-	   Sprite_Piece_Char	White_VS, "t", High,   4, 3, No, No, Pixels_8, Pixels_16, 2	
+		  Set_of_Sprites	8					
+
+	   Sprite_Piece_Char	White_VS, "p", High, -32, 3, No, No, Pixels_8, Pixels_16, 2
+	   Sprite_Piece_Char	White_VS, "i", High, -24, 3, No, No, Pixels_8, Pixels_16, 2					
+	   Sprite_Piece_Char	White_VS, "c", High, -16, 3, No, No, Pixels_8, Pixels_16, 2
+	   Sprite_Piece_Char	White_VS, "o", High,  -8, 3, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "s", High,   0, 3, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "i", High,   8, 3, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "t", High,  16, 3, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "o", High,  24, 3, No, No, Pixels_8, Pixels_16, 2	
 
 					even	
 					
@@ -248,13 +265,15 @@ Level_4_Endless:
 					; Level 4 - Spicy
 					
 							; Set of Sprites
-		  Set_of_Sprites	5					
-					
-	   Sprite_Piece_Char	White_VS, "s", High, -20, 3, No, No, Pixels_8, Pixels_16, 2
-	   Sprite_Piece_Char	White_VS, "p", High, -12, 3, No, No, Pixels_8, Pixels_16, 2	
-	   Sprite_Piece_Char	White_VS, "i", High,  -4, 3, No, No, Pixels_8, Pixels_16, 2	
-	   Sprite_Piece_Char	White_VS, "c", High,   4, 3, No, No, Pixels_8, Pixels_16, 2	
-	   Sprite_Piece_Char	White_VS, "y", High,  12, 3, No, No, Pixels_8, Pixels_16, 2
+		  Set_of_Sprites	7					
+
+	   Sprite_Piece_Char	White_VS, "p", High, -28, 3, No, No, Pixels_8, Pixels_16, 2					
+	   Sprite_Piece_Char	White_VS, "i", High, -20, 3, No, No, Pixels_8, Pixels_16, 2
+	   Sprite_Piece_Char	White_VS, "c", High, -12, 3, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "a", High,  -4, 3, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "n", High,   4, 3, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "t", High,  12, 3, No, No, Pixels_8, Pixels_16, 2
+	   Sprite_Piece_Char	White_VS, "e", High,  20, 3, No, No, Pixels_8, Pixels_16, 2
 
 					even	
 
@@ -264,13 +283,16 @@ Level_5_Endless:
 					; Level 5 - Fiery
 					
 							; Set of Sprites
-		  Set_of_Sprites	5					
-					
-	   Sprite_Piece_Char	White_VS, "f", High, -20, 3, No, No, Pixels_8, Pixels_16, 2
-	   Sprite_Piece_Char	White_VS, "i", High, -12, 3, No, No, Pixels_8, Pixels_16, 2	
-	   Sprite_Piece_Char	White_VS, "e", High,  -4, 3, No, No, Pixels_8, Pixels_16, 2	
-	   Sprite_Piece_Char	White_VS, "r", High,   4, 3, No, No, Pixels_8, Pixels_16, 2	
-	   Sprite_Piece_Char	White_VS, "y", High,  12, 3, No, No, Pixels_8, Pixels_16, 2
+		  Set_of_Sprites	8					
+
+	   Sprite_Piece_Char	White_VS, "a", High, -32, 3, No, No, Pixels_8, Pixels_16, 2
+	   Sprite_Piece_Char	White_VS, "r", High, -24, 3, No, No, Pixels_8, Pixels_16, 2					
+	   Sprite_Piece_Char	White_VS, "d", High, -16, 3, No, No, Pixels_8, Pixels_16, 2
+	   Sprite_Piece_Char	White_VS, "i", High,  -8, 3, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "e", High,   0, 3, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "n", High,   8, 3, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "t", High,  16, 3, No, No, Pixels_8, Pixels_16, 2	
+	   Sprite_Piece_Char	White_VS, "e", High,  24, 3, No, No, Pixels_8, Pixels_16, 2	
 
 					even	
 					
@@ -286,7 +308,7 @@ Games_Won:
 
 		   Position_Text	16, 2, $C000
 			 Plane_Piece	White_VS, $0, High, No, No
-			 Font_Battle 	"@"
+			 Font_Battle 	"["
 				End_Text	
 					even
 				
@@ -295,7 +317,7 @@ Games_Won:
 
 		   Position_Text	16, 4, $C000
 			 Plane_Piece	White_VS, $0, High, No, No
-			 Font_Battle 	"|"
+			 Font_Battle 	"]"
 				End_Text
 					even
 
@@ -353,9 +375,9 @@ VS_Lose:
 Time_Display:
 					; Time (Display)
 					
-		  Set_of_Letters	6						; Number of Letters
+		  Set_of_Letters	8						; Number of Letters
 					
-			 Font_Battle 	"TIME: "				; Text
+			 Font_Battle 	"TIEMPO: "				; Text
 					
 			 Font_Battle 	"¹"						; 10s digit			
 			 Font_Battle 	"º"						;  1s digit
@@ -365,15 +387,15 @@ Time_Display:
 Time_Remove:
 					; Time (Remove)
 					
-		  Set_of_Letters	6						; Number of Letters
+		  Set_of_Letters	8						; Number of Letters
 					
-			 Font_Battle 	"      "				; Text
+			 Font_Battle 	"        "				; Text
 			 
 			 Font_Battle 	" "						; 10s digit			
 			 Font_Battle 	" "						;  1s digit
 					even		
 
-Time_X_Position:			equ 17		; Time - X Position
+Time_X_Position:			equ 16		; Time - X Position
 Time_Y_Position:			equ 25		; Time - Y Position
 
 ; ---------------------------------------------------------------------------------	

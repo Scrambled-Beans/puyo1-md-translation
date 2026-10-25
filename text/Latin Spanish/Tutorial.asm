@@ -26,15 +26,15 @@ Tutorial_1:
 		Text_Start		
 		                   ; X  L
 		Line_Number			 1, 1
-		Font_Tutorial 		"Muévete con", Mode_Tutorial
+		Font_Tutorial 		"Muévelos de un", Mode_Tutorial
 				
 				           ; X  L
 		Line_Number			 1, 2
-		Font_Tutorial 		"IZQUIERDA y", Mode_Tutorial
+		Font_Tutorial 		"lado a otro con", Mode_Tutorial
 		
 				           ; X  L
 		Line_Number			 1, 3
-		Font_Tutorial 		"DERECHA.", Mode_Tutorial
+		Font_Tutorial 		"IZQUIERDA y DERECHA.", Mode_Tutorial
 				
 		Text_End
 		
@@ -74,11 +74,15 @@ Tutorial_3:
 		Text_Start		
 		                   ; X  L
 		Line_Number			 1, 1
-		Font_Tutorial 		"Mantén pulsado ABAJO", Mode_Tutorial
+		Font_Tutorial 		"Mantén pulsado", Mode_Tutorial
 				
 				           ; X  L
 		Line_Number			 1, 2
-		Font_Tutorial 		"para caer rápido.", Mode_Tutorial
+		Font_Tutorial 		"ABAJO para caer", Mode_Tutorial
+		
+				           ; X  L
+		Line_Number			 1, 3
+		Font_Tutorial 		"rápido.", Mode_Tutorial
 		
 		Text_End
 		
@@ -262,7 +266,7 @@ Tutorial_11:
 		Text_Start		
 		                   ; X  L
 		Line_Number			 1, 1
-		Font_Tutorial 		"Una más.", Mode_Tutorial
+		Font_Tutorial 		"Una vez más.", Mode_Tutorial
 		
 		Text_End
 		
@@ -300,16 +304,16 @@ Tutorial_13:
 		Text_Start		
 		                   ; X  L
 		Line_Number			 1, 1
-		Font_Tutorial 		"Según cómo vayan las", Mode_Tutorial
+		Font_Tutorial 		"Según cómo vayan", Mode_Tutorial
 				
 				           ; X  L
 		Line_Number			 1, 2
-		Font_Tutorial 		"cosas, ", Mode_Tutorial
+		Font_Tutorial 		"las cosas, ", Mode_Tutorial
 		
 		Frames_Delay		35
 				
 				           ; X  L
-		Line_Number			 8, 2
+		Line_Number			 12, 2
 		Font_Tutorial 		"¡también", Mode_Tutorial
 				
 				           ; X  L
@@ -353,28 +357,28 @@ Tutorial_14:
 		Text_Start
 		                   ; X  L
 		Line_Number			 1, 1
-		Font_Tutorial 		"Cuando combinas", Mode_Tutorial	
+		Font_Tutorial 		"Cuando revientes", Mode_Tutorial	
 
 		Line_Number			 1, 2
-		Font_Tutorial 		"puyos, ", Mode_Tutorial			
+		Font_Tutorial 		"los puyos, ", Mode_Tutorial			
 		
 		Frames_Delay		35
 		
 				           ; X  L
-		Line_Number			 7, 2
-		Font_Tutorial 		"¡la explosión", Mode_Tutorial
+		Line_Number			 12, 2
+		Font_Tutorial 		"¡los", Mode_Tutorial
 		
 				           ; X  L
 		Line_Number			 1, 3
-		Font_Tutorial 		"causará que la", Mode_Tutorial
+		Font_Tutorial 		"puyos basura", Mode_Tutorial
 		
 				           ; X  L
 		Line_Number			 1, 4
-		Font_Tutorial 		"basura adyacente", Mode_Tutorial
+		Font_Tutorial 		"adyacentes también", Mode_Tutorial
 		
 				           ; X  L
 		Line_Number			 1, 5
-		Font_Tutorial 		"también reviente!", Mode_Tutorial		
+		Font_Tutorial 		"desaparecerán!", Mode_Tutorial		
 		
 		Text_End
 		
