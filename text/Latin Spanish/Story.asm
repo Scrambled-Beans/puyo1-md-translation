@@ -150,7 +150,7 @@ Story_Opponenets:
 Story_Time:
 					; Play Time (10 letters)
 			 			 
-			 FONT_BATTLE 	"time      "			; Text
+			 FONT_BATTLE 	"tiempo    "			; Text
 			 
 			 
 Story_Bonus:
@@ -162,7 +162,7 @@ Story_Bonus:
 Story_Seconds:
 					; Sec (10 letters)
 			 			 
-			 FONT_BATTLE 	"       sec"			; Text
+			 FONT_BATTLE 	"       seg"			; Text
 			 
 
 Story_Points:
@@ -185,7 +185,7 @@ Story_Win:
 							; X | Y	
 		  Position_Board	3, 5				
 			 Plane_Piece	Green_VS, $500, High, No, No
-			 Font_Battle 	"YOU  WIN"
+			 Font_Battle 	"VICTORIA"
 				End_Text
 					even
 					
@@ -202,7 +202,7 @@ Story_No_Bonus:
 							; X | Y	
 		  Position_Board	3, 15				
 			 Plane_Piece	Blue_VS, $500, High, No, No
-			 Font_Battle 	"NO BONUS"
+			 Font_Battle 	"SIN BONUS"
 				End_Text
 					even
 
