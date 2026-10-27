@@ -63,6 +63,14 @@ c substr 1+i,1+i,\text
 			elseif ("\c"="Ú")
 				dc.b	88
 				
+			; . (Large Font)
+			elseif ("\c"=".")
+				dc.b	106
+
+			; ó (Small Font)
+			elseif ("\c"="ó")
+				dc.b	190
+				
 			; é (Small Font)
 			elseif ("\c"="é")
 				dc.b	192
@@ -91,12 +99,12 @@ c substr 1+i,1+i,\text
 			elseif ("\c"=")")
 				dc.b	$A0, $A2, $A4, $A6, $A8, $AA, $AC, $AE, $B0, $B2, $B4, $B6
 				
-			; @ = GAMES
-			elseif ("\c"="@")
+			; [ = GAMES
+			elseif ("\c"="[")
 				dc.b	$D6, $D8, $DA, $DC, $DE, $E0, $E2, $E4, $E6, $E8
 				
-			; | = WON
-			elseif ("\c"="|")
+			; ] = WON
+			elseif ("\c"="]")
 				dc.b	$EA, $EC, $EE, $F0, $F2, $F4, $F6, $F8, $FA, $FC
 							
 			else
