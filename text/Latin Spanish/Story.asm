@@ -8,13 +8,13 @@ Story_Score_1:
 			
 				; Graphic 1				
 							; X | Y | Address
-		   Position_Text	19, 3, $C000
+		   Position_Text	16, 3, $C000
 		   
 							; Pal | Tile ID | Priority | Hori Flip | Vert Flip
 			 Plane_Piece	Green_VS, $500, High, No, No
 					
 							; Text
-			 Font_Battle 	"NEXT"
+			 Font_Battle 	"SIGUIENTES"
 			 
 				End_Text	; End
 					even	
@@ -24,7 +24,7 @@ Story_Score_1:
 
 		   Position_Text	17, 21, $C000
 			 Plane_Piece	Green_VS, $500, High, No, No
-			 Font_Battle 	"SCORE"
+			 Font_Battle 	"PUNTOS"
 				End_Text
 					even						
 
@@ -47,7 +47,7 @@ Story_Score_2:
 				; Graphic 1				
 		   Position_Text	19, 3, $C000
 			 Plane_Piece	Green_VS, $500, High, No, No
-			 Font_Battle 	"TEST"
+			 Font_Battle 	"SIG."
 				End_Text
 					even	
 					
@@ -56,7 +56,7 @@ Story_Score_2:
 
 		   Position_Text	17, 21, $C000
 			 Plane_Piece	Green_VS, $500, High, No, No
-			 Font_Battle 	"PTS"
+			 Font_Battle 	"PUNTOS"
 				End_Text
 					even						
 
@@ -65,7 +65,7 @@ Story_Score_2:
 Story_Lesson:
 					; Lesson 1-3 (12 letters)
 
-			 FONT_BATTLE 	"  lesson    "			; Text
+			 FONT_BATTLE 	" lección    "			; Text
 			 
 					even					
 
@@ -73,7 +73,7 @@ Story_Lesson:
 Story_Stage_1:
 					; Stage 1-9 (12 letters)
 
-			 FONT_BATTLE 	"  stage     "			; Text
+			 FONT_BATTLE 	"  nivel     "			; Text
 			 
 					even			
 
@@ -81,7 +81,7 @@ Story_Stage_1:
 Story_Stage_10:
 					; Stage 10-12 (12 letters)
 
-			 FONT_BATTLE 	"  stage 1   "			; Text		
+			 FONT_BATTLE 	"  nivel 1   "			; Text		
 			 
 					even	
 
