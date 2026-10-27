@@ -3,31 +3,38 @@
 				
 ; ---------------------------------------------------------------------------------	
 
-	if SetRegion=1	; UK
+	if SetRegion=1			; UK
 
 Title_Local:	DC.b "PUYO PUYO (ENG-UK)                              " ; Domestic name
 Title_Int:		DC.b "PUYO PUYO (ENG-UK)                              " ; International name
 
 ; ---------------------------------------------------------------------------------		
 
-	elseif SetRegion=2	; EU Spanish
+	elseif SetRegion=0		; US
 
-Title_Local:	DC.b "PUYO PUYO (ESP-ES)                              " ; Domestic name
-Title_Int:		DC.b "PUYO PUYO (ESP-ES)                              " ; International name
+Title_Local:	DC.b "PUYO PUYO (ENG)                                 " ; Domestic name
+Title_Int:		DC.b "PUYO PUYO (ENG)                                 " ; International name
 
 ; ---------------------------------------------------------------------------------		
 
-	elseif SetRegion=3	; LAT Spanish
+	elseif SetRegion=3		; LAT Spanish
 
 Title_Local:	DC.b "PUYO PUYO (ESP-LA)                              " ; Domestic name
 Title_Int:		DC.b "PUYO PUYO (ESP-LA)                              " ; International name
 
 ; ---------------------------------------------------------------------------------
 		
-	else			; USA
+	elseif SetRegion=2		; EU Spanish
 
-Title_Local:	DC.b "PUYO PUYO (ENG)                                 " ; Domestic name
-Title_Int:		DC.b "PUYO PUYO (ENG)                                 " ; International name
+Title_Local:	DC.b "PUYO PUYO (ESP-EU)                              " ; Domestic name
+Title_Int:		DC.b "PUYO PUYO (ESP-EU)                              " ; International name
+
+; ---------------------------------------------------------------------------------	
+		
+	else					; Other
+
+Title_Local:	DC.b "PUYO PUYO (???)                                 " ; Domestic name
+Title_Int:		DC.b "PUYO PUYO (???)                                 " ; International name
 
 ; ---------------------------------------------------------------------------------	
 
