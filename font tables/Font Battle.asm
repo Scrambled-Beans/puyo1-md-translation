@@ -30,6 +30,10 @@ c substr 1+i,1+i,\text
 			; : (Large Font)
 			elseif ("\c"=":")
 				dc.b	186
+				
+			; . (Large Font)
+			elseif ("\c"=".")
+				dc.b	190
 						
 			; # (1 or 2)
 			elseif ("\c"="#")
@@ -63,25 +67,21 @@ c substr 1+i,1+i,\text
 			elseif ("\c"="Ú")
 				dc.b	88
 				
-			; . (Large Font)
-			elseif ("\c"=".")
-				dc.b	106
-
+			; / (Acute Accent - Large Font)
+			elseif ("\c"="/")
+				dc.b	192
+				
 			; ó (Small Font)
 			elseif ("\c"="ó")
-				dc.b	190
-				
-			; é (Small Font)
-			elseif ("\c"="é")
-				dc.b	192
+				dc.b	194
 				
 			; ñ (Small Font)
 			elseif ("\c"="ñ")
-				dc.b	194
+				dc.b	196
 				
 			; ü (Small Font)
 			elseif ("\c"="ü")
-				dc.b	196
+				dc.b	198
 				
 			; $ = START (Small Font)
 			elseif ("\c"="$")
