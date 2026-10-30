@@ -70,7 +70,10 @@ Staff_Strings:
 					dc.l 	Trans_Abur
 
 			 Staff_Y_Pos 	4	
-					dc.l 	Trans_Nik					
+					dc.l 	Trans_Nik	
+
+			 Staff_Y_Pos 	4	
+					dc.l 	Trans_Mutt4					
 							
 			 Staff_Y_Pos 	20
 					dc.l 	Trans_Kame
@@ -471,6 +474,11 @@ Trans_Abur:
 Trans_Nik:			
 			 Staff_X_Pos 	White_Staff, 19, 5			; Palette | X Position | # Letters
 			  Font_Staff 	"NIK PI"	   				; Text
+					even
+					
+Trans_Mutt4:			
+			 Staff_X_Pos 	White_Staff, 19, 10			; Palette | X Position | # Letters
+			  Font_Staff 	"LAZERMUTT4"	   			; Text
 					even
 					
 Trans_Kame:			
