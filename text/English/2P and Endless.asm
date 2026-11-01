@@ -341,10 +341,10 @@ VS_Lose:
 					
 			Sprite_Piece	PAL_1, $270, Low, -48, -32, No, No, Pixels_32, Pixels_32, 1
 			Sprite_Piece	PAL_1, $280, Low, -16, -32, No, No, Pixels_32, Pixels_32, 1	
-			Sprite_Piece	PAL_1, $290, Low,  24,  -8, No, No, Pixels_24, Pixels_8,  1
-			Sprite_Piece	PAL_1, $293, Low, -48,   0, No, No, Pixels_32, Pixels_16, 1
-			Sprite_Piece	PAL_1, $29B, Low, -16,   0, No, No, Pixels_32, Pixels_32, 1	
-			Sprite_Piece	PAL_1, $2AB, Low,  16,   0, No, No, Pixels_32, Pixels_32, 1
+			Sprite_Piece	PAL_1, $290, Low,  16, -32, No, No, Pixels_32, Pixels_32, 1
+			Sprite_Piece	PAL_1, $2A0, Low, -48,   0, No, No, Pixels_32, Pixels_32, 1
+			Sprite_Piece	PAL_1, $2B0, Low, -16,   0, No, No, Pixels_32, Pixels_32, 1	
+			Sprite_Piece	PAL_1, $2C0, Low,  16,   0, No, No, Pixels_32, Pixels_32, 1
 
 					even	
 
