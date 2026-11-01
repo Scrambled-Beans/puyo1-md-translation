@@ -3,18 +3,19 @@ Over_Frame_1:
 					; Game Over (8x16) - Frame 1
 					
 							; Set of Sprites
-		  Set_of_Sprites	8					
+		  Set_of_Sprites	8				
 					
 							; Pal | Letter | Priority | X | Y | Hori Flip | Vert Flip | Width | Height | Link
-	   Sprite_Piece_Char	Blue_VS, "G", High, -36, -8, No, No, Pixels_8, Pixels_16, 0
-	   Sprite_Piece_Char	Blue_VS, "A", High, -28, -8, No, No, Pixels_8, Pixels_16, 0
-	   Sprite_Piece_Char	Blue_VS, "M", High, -20, -8, No, No, Pixels_8, Pixels_16, 0
-	   Sprite_Piece_Char	Blue_VS, "E", High, -12, -8, No, No, Pixels_8, Pixels_16, 0
+	   Sprite_Piece_Char	Blue_VS, "S", High, -32,  -8, No, No, Pixels_8, Pixels_16, 0
+	   Sprite_Piece_Char	Blue_VS, "E", High, -24,  -8, No, No, Pixels_8, Pixels_16, 0
 	   
-	   Sprite_Piece_Char	Blue_VS, "O", High,   4, -8, No, No, Pixels_8, Pixels_16, 0
-	   Sprite_Piece_Char	Blue_VS, "V", High,  12, -8, No, No, Pixels_8, Pixels_16, 0
-	   Sprite_Piece_Char	Blue_VS, "E", High,  20, -8, No, No, Pixels_8, Pixels_16, 0
-	   Sprite_Piece_Char	Blue_VS, "R", High,  28, -8, No, No, Pixels_8, Pixels_16, 0
+	   Sprite_Piece_Char	Blue_VS, "A", High,  -8,  -8, No, No, Pixels_8, Pixels_16, 0
+	   Sprite_Piece_Char	Blue_VS, "C", High,  -0,  -8, No, No, Pixels_8, Pixels_16, 0	   
+	   Sprite_Piece_Char	Blue_VS, "A", High,   8,  -8, No, No, Pixels_8, Pixels_16, 0
+	   Sprite_Piece_Char	Blue_VS, "B", High,  16,  -8, No, No, Pixels_8, Pixels_16, 0
+	   Sprite_Piece_Char	Blue_VS, "O", High,  24,  -8, No, No, Pixels_8, Pixels_16, 0
+	   
+	   Sprite_Piece_Char	Blue_VS, "/", High,  24, -24, No, No, Pixels_8, Pixels_16, 0
 	   
 					even	
 	   
@@ -27,8 +28,8 @@ Over_Frame_2:
 		  Set_of_Sprites	2					
 					
 							; Pal | Tile | Priority | X | Y | Hori Flip | Vert Flip | Width | Height | Link
-			Sprite_Piece	Blue_VS, $54C, High, -36, -8, No, No, Pixels_32, Pixels_16, 0
-			Sprite_Piece	Blue_VS, $554, High,   4, -8, No, No, Pixels_32, Pixels_16, 0
+			Sprite_Piece	Blue_VS, $54C, High, -32, -8, No, No, Pixels_32, Pixels_16, 0
+			Sprite_Piece	Blue_VS, $554, High,   0, -8, No, No, Pixels_32, Pixels_16, 0
 			
 					even	
 					
@@ -41,8 +42,8 @@ Over_Frame_3:
 		  Set_of_Sprites	2					
 					
 							; Pal | Tile | Priority | X | Y | Hori Flip | Vert Flip | Width | Height | Link
-			Sprite_Piece	Blue_VS, $55C, High, -36, -8, No, No, Pixels_32, Pixels_16, 0
-			Sprite_Piece	Blue_VS, $564, High,   4, -8, No, No, Pixels_32, Pixels_16, 0
+			Sprite_Piece	Blue_VS, $55C, High, -32, -8, No, No, Pixels_32, Pixels_16, 0
+			Sprite_Piece	Blue_VS, $564, High,   0, -8, No, No, Pixels_32, Pixels_16, 0
 
 					even	
 													
