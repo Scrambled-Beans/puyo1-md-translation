@@ -148,6 +148,14 @@ c substr 1+i,1+i,\letter
 				dc.w	((pri&1)<<15)|((pal&3)<<13)|((yflip&1)<<12)|((xflip&1)<<11)|$500+(("\c"-54)*2)
 				dc.w	xpos
 				
+			; / (Acute Accent - Large Font)	
+			elseif ("\c"="/")
+			
+				dc.w	ypos
+				dc.w	((width&3)<<10)|((height&3)<<8)|link
+				dc.w	((pri&1)<<15)|((pal&3)<<13)|((yflip&1)<<12)|((xflip&1)<<11)|$5C0
+				dc.w	xpos
+				
 			else	
 				dc.w	ypos
 				dc.w	((width&3)<<10)|((height&3)<<8)|link
