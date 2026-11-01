@@ -22,7 +22,7 @@ Rank1:
 			
 					; Rank - Message 1
 			
-			   Font_Rank 	"RANK "						; Text
+			   Font_Rank 	"RANGO "					; Text
 				End_Text								; End
 					even
 
@@ -34,7 +34,7 @@ Rank1_Line:				equ 11			; Rank 1 Line # 	- Y Position
 Rank2:			
 					; Rank - Message 2
 			
-			   Font_Rank	"ENTER YOUR"				; Text
+			   Font_Rank	"¡COLOCA TUS"				; Text
 				End_Text								; End
 					even
 
@@ -46,11 +46,11 @@ Rank2_Line:				equ 7			; Rank 2 Line # 	- Y Position
 Rank3:			
 					; Rank - Message 3
 			
-			   Font_Rank	"INITIALS!"					; Text
+			   Font_Rank	"INICIALES!"				; Text
 				End_Text								; End
 					even
 
-Rank3_Position_X:		equ 4			; Rank 3 Position # - X Position
+Rank3_Position_X:		equ 3			; Rank 3 Position # - X Position
 Rank3_Line:				equ 8			; Rank 3 Line # 	- Y Position
 
 ; ---------------------------------------------------------------------------------
