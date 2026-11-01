@@ -327,12 +327,15 @@ VS_Try_Again:
 					; Try Again
 					
 							; Set of Sprites
-		  Set_of_Sprites	3					
+		  Set_of_Sprites	6					
 							
 							; Pal | Letter | Priority | X | Y | Hori Flip | Vert Flip | Width | Height | Link			
-			Sprite_Piece	PAL_1, $70, High, -28, 0, No, No, Pixels_32, Pixels_32, 1
-			Sprite_Piece	PAL_1, $80, High,   4, 0, No, No, Pixels_32, Pixels_32, 1	
-			Sprite_Piece	PAL_1, $90, High,  36, 0, No, No, Pixels_16, Pixels_32, 1	
+			Sprite_Piece	PAL_1, $70, High, -36,  0, No, No, Pixels_32, Pixels_24, 1
+			Sprite_Piece	PAL_1, $7C, High,  -4,  0, No, No, Pixels_32, Pixels_24, 1
+			Sprite_Piece	PAL_1, $88, High,  28,  0, No, No, Pixels_24, Pixels_24, 1
+			Sprite_Piece	PAL_1, $91, High, -36, 24, No, No, Pixels_32, Pixels_24, 1
+			Sprite_Piece	PAL_1, $9D, High,  -4, 24, No, No, Pixels_32, Pixels_24, 1
+			Sprite_Piece	PAL_1, $A9, High,  28, 24, No, No, Pixels_24, Pixels_24, 1
 
 					even	
 					
