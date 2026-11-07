@@ -4,6 +4,7 @@ This is a partial disassembly to translate Puyo Puyo for the Sega Mega Drive int
 - English (USA) - Complete
 - English (UK) - Complete
 - Español Latino - In-Progress
+- Español de España - On Hold
 
 
 ## Translating Puyo Puyo to Another Language
