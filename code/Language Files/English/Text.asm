@@ -18,11 +18,7 @@
 					; Text - Checksum
 					include "text\English\Checksum.asm"
 					even
-					
-					; Text - Tutorial
-					include "text\English\Tutorial.asm"
-					even
-					
+										
 					; Text - Rank
 					include "text\English\Rank.asm"
 					even
