@@ -8,7 +8,7 @@
 ;
 ; ==================================================================================================================================
 																	
-SetRegion:			equ 3	; 0 = English (USA)
+SetRegion:			equ 0	; 0 = English (USA)
 							; 1 = English (UK)
 							; 2 = Español de España (European Spanish)
 							; 3 = Español Latino (Latin Spanish)
@@ -16,17 +16,17 @@ SetRegion:			equ 3	; 0 = English (USA)
 ConsoleHeader:		equ 1	; 0 = Header says "SEGA MEGA DRIVE"
 							; 1 = Header says "SEGA GENESIS"
 							
-StoryNextScore:		equ 1	; 0 = Use "Story_Board_Next_Score_Original" code so
+StoryNextScore:		equ 0	; 0 = Use "Story_Board_Next_Score_Original" code so
 							;     stages 9 to 12 use the same NEXT and SCORE text
 							;     as stages 1 to 8
 							; 1 = Use "Story_Board_Next_Score_Custom" code so
 							;     stages 9 to 12 use different NEXT and SCORE text
 							;     to stages 1 to 8
 							
-StaffTranslation:	equ 1	; 0 = Don't include "Language Translation" section in Staff
+StaffTranslation:	equ 0	; 0 = Don't include "Language Translation" section in Staff
 							; 1 =    Do include "Language Translation" section in Staff
 							
-Debug:				equ 1	; 0 = Turn Debug OFF
+Debug:				equ 0	; 0 = Turn Debug OFF
 							; 1 = Turn Debug ON
 							
 SkipCredits:		equ 1	; 0 = Can Skip Credits
@@ -273,14 +273,19 @@ EndOfHeader:
 
 ; ----------------------------------------------------------------------------------------------------------------------------------
 
-	if SetRegion=3	; Latin Spanish
+	if SetRegion=3		; Latin Spanish
 			
 					; Data - Art
 					include "code\Language Files\Latin Spanish\Art.asm"
 					even
+					
+	elseif SetRegion=2	; European Spanish
+			
+					; Data - Art
+					include "code\Language Files\European Spanish\Art.asm"
+					even
 
-	else
-	
+	else	
 					; Data - Art
 					include "code\Language Files\English\Art.asm"
 					even
@@ -289,14 +294,19 @@ EndOfHeader:
 					
 ; ----------------------------------------------------------------------------------------------------------------------------------
 
-	if SetRegion=3	; Latin Spanish
+	if SetRegion=3		; Latin Spanish
 							
 					; Data - Mappings
 					include "code\Language Files\Latin Spanish\Mappings.asm"
 					even
 					
+	elseif SetRegion=2	; European Spanish
+							
+					; Data - Mappings
+					include "code\Language Files\European Spanish\Mappings.asm"
+					even
+					
 	else
-
 					; Data - Mappings
 					include "code\Language Files\English\Mappings.asm"
 					even
@@ -305,14 +315,19 @@ EndOfHeader:
 					
 ; ----------------------------------------------------------------------------------------------------------------------------------
 
-	if SetRegion=3	; Latin Spanish
+	if SetRegion=3		; Latin Spanish
 				
 					; Data - Text
 					include "code\Language Files\Latin Spanish\Text.asm"
 					even
 					
-	else
-	
+	elseif SetRegion=1	; European Spanish
+				
+					; Data - Text
+					include "code\Language Files\European Spanish\Text.asm"
+					even
+					
+	else	
 					; Data - Text
 					include "code\Language Files\English\Text.asm"
 					even
@@ -321,14 +336,19 @@ EndOfHeader:
 					
 ; ----------------------------------------------------------------------------------------------------------------------------------
 
-	if SetRegion=3	; Latin Spanish
+	if SetRegion=3		; Latin Spanish
 					
 					; Data - Dialog
-					include "code\Language Files\English\Dialog.asm"
+					include "code\Language Files\Latin Spanish\Dialog.asm"
+					even
+					
+	elseif SetRegion=2	; European Spanish
+					
+					; Data - Dialog
+					include "code\Language Files\European Spanish\Dialog.asm"
 					even
 					
 	else
-
 					; Data - Dialog
 					include "code\Language Files\English\Dialog.asm"
 					even
