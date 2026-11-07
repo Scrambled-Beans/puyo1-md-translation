@@ -32,11 +32,23 @@ Title_Copyright:
 			Sprite_Piece	PAL_1, $3B6, High,  -80, 0, No, No, Pixels_32, Pixels_16, 0
 			Sprite_Piece	PAL_1, $3BE, High,  -48, 0, No, No, Pixels_32, Pixels_16, 0
 			Sprite_Piece	PAL_1, $3C6, High,  -16, 0, No, No, Pixels_16, Pixels_16, 0
+
+
+	if SetRegion=3			; Latin Spanish
 								
 			Sprite_Piece	PAL_1, $3F8, High,  112, 0, No, No, Pixels_32, Pixels_16, 0		; Version
 
 			Sprite_Piece	PAL_1, $3E0, High,   56, 0, No, No, Pixels_32, Pixels_16, 0		; ESP-
-			Sprite_Piece	PAL_1, $3EE, High,   88, 0, No, No, Pixels_16, Pixels_16, 0		; LA
+			Sprite_Piece	PAL_1, $3EC, High,   88, 0, No, No, Pixels_16, Pixels_16, 0		; LA
+			
+	else					; European Spanish
+	
+			Sprite_Piece	PAL_1, $3F0, High,  112, 0, No, No, Pixels_32, Pixels_16, 0		; Version
+
+			Sprite_Piece	PAL_1, $3E0, High,   56, 0, No, No, Pixels_32, Pixels_16, 0		; ESP-
+			Sprite_Piece	PAL_1, $3E8, High,   88, 0, No, No, Pixels_16, Pixels_16, 0		; ES
+	
+	endc
 
 
 ; ---------------------------------------------------------------------------------
