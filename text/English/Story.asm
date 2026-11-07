@@ -220,7 +220,7 @@ Lesson_Hints:
 			Sprite_Piece	White_VS, $98, Low,  16,  0, No, No, Pixels_32, Pixels_24, 0	
 			Sprite_Piece	White_VS, $A4, Low, -48, 24, No, No, Pixels_32, Pixels_24, 0	
 			Sprite_Piece	White_VS, $B0, Low, -16, 24, No, No, Pixels_32, Pixels_24, 0
-			Sprite_Piece	White_VS, $bc, Low,  16, 24, No, No, Pixels_32, Pixels_24, 0
+			Sprite_Piece	White_VS, $BC, Low,  16, 24, No, No, Pixels_32, Pixels_24, 0
 					
 					even	
 
