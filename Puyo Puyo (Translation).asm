@@ -10,8 +10,8 @@
 																	
 SetRegion:			equ 0	; 0 = English (USA)
 							; 1 = English (UK)
-							; 2 = Español de España (European Spanish)
-							; 3 = Español Latino (Latin Spanish)
+							; 2 = EspaÃ±ol de EspaÃ±a (European Spanish)
+							; 3 = EspaÃ±ol Latino (Latin Spanish)
 							
 ConsoleHeader:		equ 1	; 0 = Header says "SEGA MEGA DRIVE"
 							; 1 = Header says "SEGA GENESIS"
@@ -321,7 +321,7 @@ EndOfHeader:
 					include "code\Language Files\Latin Spanish\Text.asm"
 					even
 					
-	elseif SetRegion=1	; European Spanish
+	elseif SetRegion=2	; European Spanish
 				
 					; Data - Text
 					include "code\Language Files\European Spanish\Text.asm"
